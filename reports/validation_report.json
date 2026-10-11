@@ -1,0 +1,44 @@
+{
+  "created_date": "2026-10-11",
+  "epub": {
+    "filename": "Savigny_System_des_heutigen_Roemischen_Rechts_Vol1-8_Chinese.epub",
+    "sha256": "659900e3ce39109265c0cff96b645663efc45582b9466d4f119a3388248f06c8",
+    "bytes": 2652257,
+    "zip_crc": "pass",
+    "mimetype_first_uncompressed": "pass",
+    "xml_documents_parsed": 5
+  },
+  "coverage": {
+    "volume_count": 8,
+    "translated_output_pages": 4832,
+    "page_map_rows": 4832,
+    "section_crosswalk_rows": 400,
+    "translation_issue_records": 1256,
+    "unresolved_points": 443,
+    "volume_7_8_scan_unverified_pages": 720
+  },
+  "navigation": {
+    "volume_nodes": 8,
+    "section_nodes": 400,
+    "appendix_node": "编校记录与术语附录",
+    "appendix_child_nodes": 6,
+    "toc_links_total": 415,
+    "targets_unique_and_resolved": 415,
+    "manifest_alignment": "pass (415/415)",
+    "internal_xhtml_links_checked": 853,
+    "broken_internal_links": 0
+  },
+  "body_text_parity_vs_prior_epub": "pass",
+  "calibre_generation": "succeeded",
+  "epubcheck": "not run",
+  "visual_reader_review": "not performed",
+  "interpretation": "Structural, text, navigation, and link checks only; they do not certify line-by-line translation accuracy.",
+  "publication_sanitization": {
+    "status": "pass",
+    "method": "Removed local source-file locator list items from the EPUB endmatter; issue text, source page references, and translations were retained.",
+    "items_redacted": 443,
+    "text_or_translation_changed": false,
+    "epubcheck": "not run",
+    "visual_reader_review": "not performed"
+  }
+}

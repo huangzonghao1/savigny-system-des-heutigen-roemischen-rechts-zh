@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "work_title_original": "System des heutigen Römischen Rechts",
+  "author": "Friedrich Carl von Savigny",
+  "coverage": "Volumes 1–8 (1840–1849); the 1851 register volume is excluded.",
+  "translated_pdf_pages": 4832,
+  "source_map_sha256": "830bd65c699a1eb1c2f3f4cda2b69b45147eabbc1dc69a7e5d40efdcaadf68af",
+  "volumes": [
+    {
+      "volume": 1,
+      "publication_year": 1840,
+      "source_collection": "Bayerische Staatsbibliothek via Internet Archive",
+      "source_record": "https://archive.org/details/10565874bsb",
+      "source_scan_sha256": "3ee334c806b4828bc2107306091a286ac42a3992bce07cbb69aa575e476fb639",
+      "original_scan_page_count": 491,
+      "translated_pdf_page_count": 492
+    },
+    {
+      "volume": 2,
+      "publication_year": 1840,
+      "source_collection": "Internet Archive",
+      "source_record": "https://archive.org/details/systemdesheutig04savigoog",
+      "source_scan_sha256": "c6eb14e7c4e4bf12e0992ed35853507091dd6d6d26b26d52943e8727dcd85214",
+      "original_scan_page_count": 579,
+      "translated_pdf_page_count": 581
+    },
+    {
+      "volume": 3,
+      "publication_year": 1840,
+      "source_collection": "Internet Archive",
+      "source_record": "https://archive.org/details/systemdesheutig01savigoog",
+      "source_scan_sha256": "ae5f9d26c2dded8646a845123bfd99719390f085b7f02d22cc2fe146fd61320d",
+      "original_scan_page_count": 493,
+      "translated_pdf_page_count": 495
+    },
+    {
+      "volume": 4,
+      "publication_year": 1841,
+      "source_collection": "Internet Archive",
+      "source_record": "https://archive.org/details/systemdesheutig06savigoog",
+      "source_scan_sha256": "5bb494919df65b4c51cf1b8c0306f02f08f847787beb132368e233658408af3a",
+      "original_scan_page_count": 646,
+      "translated_pdf_page_count": 649
+    },
+    {
+      "volume": 5,
+      "publication_year": 1841,
+      "source_collection": "Internet Archive",
+      "source_record": "https://archive.org/details/systemdesheutig07savigoog",
+      "source_scan_sha256": "4f3d570de26abe289b200df251614283ffebc1c57151ed55202c86e0d512d3a7",
+      "original_scan_page_count": 680,
+      "translated_pdf_page_count": 683
+    },
+    {
+      "volume": 6,
+      "publication_year": 1847,
+      "source_collection": "Internet Archive",
+      "source_record": "https://archive.org/details/systemdesheutig02savigoog",
+      "source_scan_sha256": "cdd523ec9f7b138d735a039a4a1227e20481b62ba5f0f56b388e765e984350de",
+      "original_scan_page_count": 559,
+      "translated_pdf_page_count": 562
+    },
+    {
+      "volume": 7,
+      "publication_year": 1848,
+      "source_collection": "Internet Archive",
+      "source_record": "https://archive.org/details/systemdesheutig05savigoog",
+      "source_scan_sha256": "a061f8d85be2c660b0c9700516e6b74cf5dce6e47a7325322d62359c01548ab1",
+      "original_scan_page_count": 342,
+      "translated_pdf_page_count": 344
+    },
+    {
+      "volume": 8,
+      "publication_year": 1849,
+      "source_collection": "Bayerische Staatsbibliothek via Internet Archive",
+      "source_record": "https://archive.org/details/10565881bsb",
+      "source_scan_sha256": "f678bc841e48e46d2a6aa5e12baf7605678a1973494e7e206bab359fffe65540",
+      "original_scan_page_count": 563,
+      "translated_pdf_page_count": 1026
+    }
+  ],
+  "rights_note": "This package contains no original scan images or scan PDFs. Rights conditions are item-specific; consult each linked source record and the Bayerische Staatsbibliothek's reuse guidance.",
+  "bsb_rights_guidance": "https://www.digitale-sammlungen.de/de/faq"
+}

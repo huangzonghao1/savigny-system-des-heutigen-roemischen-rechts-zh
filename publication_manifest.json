@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "repository": "huangzonghao1/savigny-system-des-heutigen-roemischen-rechts-zh",
+  "release_tag": "v2026.10.11",
+  "title": "萨维尼《当代罗马法体系》第1—8卷中文译本",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2846,
+      "sha256": "e6009371f7b758333e89773ebae7f3ff13d8c573eadfe1e00638185392d7727c"
+    },
+    {
+      "path": "metadata/glossary.csv",
+      "bytes": 507765,
+      "sha256": "5ef782baf07bdbd9393226931ddde800966a5d56b235dd342f988a6659e325f1"
+    },
+    {
+      "path": "metadata/section_original_page_crosswalk.csv",
+      "bytes": 46341,
+      "sha256": "815e0439ad718203b844a273e5f88c77bb7b36c4a60a6bf7c1d5f67c57c116c4"
+    },
+    {
+      "path": "metadata/source_provenance.json",
+      "bytes": 3592,
+      "sha256": "fa8d39a81c7ec35bc9dd503b46736c0d5aeec32f9afeaa9de9c106c801ed4888"
+    },
+    {
+      "path": "metadata/source_to_epub_pages.csv",
+      "bytes": 991234,
+      "sha256": "d48e4b10d4f5cb5725e86e679a7923f1024462a16b0d474c0ff85823849bdfa6"
+    },
+    {
+      "path": "metadata/translation_issues.json",
+      "bytes": 498938,
+      "sha256": "2fbd2a580f587fdca83d379f55a9c003b1e040cac24377e38204b350ddd0b894"
+    },
+    {
+      "path": "metadata/translation_issues.md",
+      "bytes": 419319,
+      "sha256": "296284dc80fa06fde3ed0a18e3d813b62a727a50263f2bcb6e94f7e9b9be4237"
+    },
+    {
+      "path": "metadata/unresolved_points.json",
+      "bytes": 189762,
+      "sha256": "515447363b10ae2839eb58675d02f2a12a0601c1ad58d2f50e77f74d0e55c992"
+    },
+    {
+      "path": "metadata/unresolved_points.md",
+      "bytes": 154531,
+      "sha256": "db8c6384e28be52d1e501700cca8fbbedd3b7cf575b401ad787bdce930e9204b"
+    },
+    {
+      "path": "release-notes.md",
+      "bytes": 626,
+      "sha256": "bfa7e684b86e84ca1d5833e9d9540ca0190f9c5a8f4380e36390034730c66286"
+    },
+    {
+      "path": "reports/validation_report.json",
+      "bytes": 1567,
+      "sha256": "7fd3063c4891bb2513b9614c2929cce989d6df2a547a10b87f6c4793e9231cfc"
+    },
+    {
+      "path": "works/Savigny_System_des_heutigen_Roemischen_Rechts_Vol1-8_Chinese.epub",
+      "bytes": 2652257,
+      "sha256": "659900e3ce39109265c0cff96b645663efc45582b9466d4f119a3388248f06c8"
+    }
+  ],
+  "excluded_private_material": "Raw scans, Zotero storage identifiers, local paths, agent work files, backups, and the 1.8 GB working tree are not included.",
+  "publication_sanitization": "The EPUB endmatter local source-file locator fields were omitted for public release; the book text and translations were not changed."
+}

@@ -1,0 +1,6183 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-11T10:53:11.853935+00:00",
+  "scope": "Savigny volumes 1-8",
+  "count": 443,
+  "count_by_volume": {
+    "1": 26,
+    "2": 29,
+    "3": 23,
+    "4": 17,
+    "5": 27,
+    "6": 34,
+    "7": 12,
+    "8": 275
+  },
+  "selection_rule": "Explicit unresolved/open status or follow-up flag, plus explicitly undecipherable annotations; original fields are retained.",
+  "note": "Page-level scan verification state is reported separately in scan_unverified_pages_v7_8.json and translation_progress_final.json; it is not converted into issue records.",
+  "items": [
+    {
+      "id": "V1-P6-HANDWRITTEN-DEDICATION-UNCERTAIN",
+      "volume": 1,
+      "output_pdf_pages": [
+        6
+      ],
+      "source_scan_pages": [
+        5
+      ],
+      "type": "handwritten_non_body_inscription",
+      "source_fragment": "Geschenk des Verfassers an die Akademie d. Wissenschaft(en) zu Berlin",
+      "description": "手写题赠大意可辨为作者赠予柏林科学院；缩写、词尾及个别字母无法完全确定。此内容属非正文，译文仅作说明性转写。",
+      "disposition": "保留不确定标记，不作为作者正文。",
+      "status": "unresolved_transcription",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V1-P62-FOOTNOTE-A-TRUNCATED",
+      "volume": 1,
+      "output_pdf_page": 62,
+      "source_scan_pages": [
+        61
+      ],
+      "type": "source_footnote_uncertain",
+      "source_fragment": "So wird es z. B. nöthig, von mancher Lehre auch antiquierte",
+      "description": "The original scan visibly ends the footnote after antiquierte; the next page begins the main text and does not continue the note. The Chinese text translates only the readable fragment and marks the remainder unresolved.",
+      "status": "unresolved_after_scan_review",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V1-P77-FOOTNOTE-A-UNCLEAR",
+      "volume": 1,
+      "output_pdf_pages": [
+        77
+      ],
+      "source_scan_pages": [
+        76
+      ],
+      "type": "unresolved_scan_text",
+      "source_fragment": "古老的……；个别团体的习惯法类型名",
+      "description": "Scanned footnote cites Roman customary practices and Dirksen, Civil-Abhandlungen, vol. 2, p. 90; the intervening precise phrase is not confidently legible. Translation preserves a lacuna rather than guessing.",
+      "status": "unresolved_after_scan_review",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V1-P106-FOOTNOTE-D-CONTINUATION",
+      "volume": 1,
+      "output_pdf_pages": [
+        106,
+        107
+      ],
+      "source_scan_pages": [
+        105,
+        106
+      ],
+      "type": "source_footnote_fragment",
+      "source_fragment": "Bis zu welchem Grade",
+      "description": "Footnote (d) gives Digest 1.2.2 §§5–6 and begins a German continuation (“Bis zu welchem Grade …”); the scanned page ends before the sentence is completed. The next scan page begins a new §15 and does not contain the continuation. Translation preserves the citation and marks the fragment unresolved.",
+      "status": "unresolved_scan_boundary",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V1-P154-FOOTNOTE-C-TRUNCATED",
+      "volume": 1,
+      "output_pdf_pages": [
+        154
+      ],
+      "source_scan_pages": [
+        153
+      ],
+      "type": "unresolved_scan_footnote",
+      "source_fragment": "... nicht unbedingte Tauglichkeit von Urtheilen zur Be-",
+      "description": "The original scan page 153 footnote (c) visibly ends at the line-break fragment “zur Be-”; no continuation is present on the next scan page. Main text is translated; the remainder of this cross-reference is not reconstructed.",
+      "status": "unresolved_after_scan_review",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V1-P163-FOOTNOTE-C-TRUNCATED",
+      "volume": 1,
+      "output_pdf_pages": [
+        163
+      ],
+      "source_scan_pages": [
+        162
+      ],
+      "type": "unresolved_scan_footnote",
+      "source_fragment": "Nicht sowohl unrichtig, als zu ...",
+      "description": "Footnote (c) on the original scan page ends mid-sentence after “Nicht sowohl unrichtig, als zu …”; the next page does not show its continuation. The legible note was translated, and the missing tail is marked rather than reconstructed.",
+      "status": "unresolved_after_scan_review",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V1-P173-FOOTNOTE-W-TRUNCATED",
+      "volume": 1,
+      "output_pdf_pages": [
+        173
+      ],
+      "source_scan_pages": [
+        172
+      ],
+      "type": "unresolved_scan_footnote",
+      "source_fragment": "aber diese ihre be-",
+      "description": "脚注(w)在原扫描页底部停于“aber diese ihre be-”，后页没有该脚注续文；已译出可读部分并保留截断，不猜补。",
+      "status": "unresolved_after_scan_review",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V1-P175-FOOTNOTE-Z-AUTHOR-UNCLEAR",
+      "volume": 1,
+      "output_pdf_pages": [
+        175
+      ],
+      "source_scan_pages": [
+        174
+      ],
+      "type": "unresolved_scan_bibliographic_name",
+      "source_fragment": "bey Dürdi",
+      "description": "脚注(z)的作者姓氏经原扫描局部放大仍无法可靠辨读；保留作者名未决标记，照录卷6页码308、309、393。",
+      "status": "unresolved_after_scan_review",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V1-P180-FOOTNOTE-D-TRUNCATED",
+      "volume": 1,
+      "output_pdf_pages": [
+        180
+      ],
+      "source_scan_pages": [
+        179
+      ],
+      "type": "unresolved_scan_footnote",
+      "source_fragment": "Außerdem aber kommen als Edicte auch",
+      "description": "脚注(d)在原扫描页底部的皇帝告示目录中止于“此外，还有被称作告示的……”；下一扫描页无可确认的续文。已译出可读目录并保留截断。",
+      "status": "unresolved_after_scan_review",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V1-P181-FOOTNOTE-G-TRUNCATED",
+      "volume": 1,
+      "output_pdf_pages": [
+        181
+      ],
+      "source_scan_pages": [
+        180
+      ],
+      "type": "unresolved_scan_footnote",
+      "source_fragment": "Bey weitem die meisten Kaiser... namentlich die von",
+      "description": "脚注(g)在扫描页底部停于“绝大多数皇帝法律，尤其是……”，后页未见续文。",
+      "status": "unresolved_after_scan_review",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V1-P184-FOOTNOTE-Q-TRUNCATED",
+      "volume": 1,
+      "output_pdf_pages": [
+        184
+      ],
+      "source_scan_pages": [
+        183
+      ],
+      "type": "unresolved_scan_footnote",
+      "source_fragment": "Die Decrete dieser Art kön-",
+      "description": "脚注(q)在原扫描页末尾停于“这类裁决可以……”（德文断词“kön-”），下一页未见续文。",
+      "status": "unresolved_after_scan_review",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V1-P185-FOOTNOTE-A-BIBLIOGRAPHIC-NAME",
+      "volume": 1,
+      "output_pdf_pages": [
+        185
+      ],
+      "source_scan_pages": [
+        184
+      ],
+      "type": "unresolved_scan_bibliographic_name",
+      "source_fragment": "Güyer/Guyet Abhandlungen N. 4",
+      "description": "脚注(a)第二位作者姓氏经扫描放大仍不能可靠辨定为Güyer或Guyet，故保留原字形备选并登记未决。",
+      "status": "unresolved_after_scan_review",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V1-P188-FOOTNOTE-E-NAME",
+      "volume": 1,
+      "output_pdf_page": 188,
+      "source_scan_pages": [
+        187
+      ],
+      "type": "bibliographic_name_transcription",
+      "description": "注e所引作者姓氏的末字母，按现有扫描分辨率不能唯一判定；文字层识别为Güpet，译文暂保留该读法并标记待核。",
+      "disposition": "未决：原文姓名保留暂录形式，不作校正或外部推猜。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V1-P189-FOOTNOTE-F-NAME",
+      "volume": 1,
+      "output_pdf_page": 189,
+      "source_scan_pages": [
+        188
+      ],
+      "type": "bibliographic_name_uncertain",
+      "description": "注f引文作者姓氏的字形不清，扫描与文字层分别疑似Günet/Büget。",
+      "disposition": "未决：译文保留暂录形式并标注待核，不猜定姓名。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V1-P190-FOOTNOTE-K-TRUNCATED",
+      "volume": 1,
+      "output_pdf_page": 190,
+      "source_scan_pages": [
+        189
+      ],
+      "type": "source_footnote_truncated",
+      "description": "注k法源引文在本页底部截于拉丁词“ini-”，相邻扫描页未见其续文。",
+      "disposition": "保留可辨引文并标明原页截断；不补全单词。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V1-P193-FOOTNOTE-Q-PARTIAL",
+      "volume": 1,
+      "output_pdf_page": 193,
+      "source_scan_pages": [
+        192
+      ],
+      "type": "footnote_partially_unclear",
+      "description": "注q中段落的拉丁和德文引文有残缺，无法由现有文字层和扫描唯一复原。",
+      "disposition": "只翻译可辨部分，未决片段不补写。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V1-P197-FOOTNOTE-U-NAME",
+      "volume": 1,
+      "output_pdf_page": 197,
+      "source_scan_pages": [
+        196
+      ],
+      "type": "bibliographic_name_uncertain",
+      "description": "注u所引作者姓氏末字母不清；暂录为Güpet。",
+      "disposition": "原文姓名保留暂录形式并标记待核。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V1-P198-FOOTNOTE-W-NAME",
+      "volume": 1,
+      "output_pdf_page": 198,
+      "source_scan_pages": [
+        197
+      ],
+      "type": "bibliographic_name_uncertain",
+      "description": "注w所引作者姓氏字形在现有扫描中仍不能唯一判定，文字层也有识别噪声。",
+      "disposition": "译文暂录为Günet并标记待核；不猜改。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V1-P199-FOOTNOTE-Y-CONTINUATION",
+      "volume": 1,
+      "output_pdf_page": 199,
+      "source_scan_pages": [
+        198
+      ],
+      "type": "footnote_crosspage",
+      "description": "注y的拉丁法源引文跨页截断于“Cum in notitiam”；续文未见于当前源页。",
+      "disposition": "只译可辨部分，标明原文跨页；不补全。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V1-P220-FOOTNOTE-B-TRUNCATED",
+      "volume": 1,
+      "output_pdf_pages": [
+        220
+      ],
+      "source_scan_pages": [
+        219
+      ],
+      "type": "source_footnote_uncertain",
+      "source_fragment": "(b) Glück I §96, der auch",
+      "description": "The original scan shows footnote (b) ending after “der auch”; the following scan page contains no continuation. Only the visible reference is retained, with no conjectural completion.",
+      "disposition": "Translate the visible fragment and leave the bibliographic continuation unresolved.",
+      "status": "unresolved_after_scan_review",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V1-P330-FOOTNOTE-MARKER-MISMATCH",
+      "volume": 1,
+      "output_pdf_pages": [
+        330,
+        331
+      ],
+      "source_scan_pages": [
+        329,
+        330
+      ],
+      "type": "source_footnote_marker_uncertain",
+      "description": "The original scan shows the marker and footer lettering clearly, but their correspondence is inconsistent across the page break. Translation preserves printed marker labels and does not infer a missing note h.",
+      "status": "unresolved_scan_checked",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V1-P377-FOOTNOTE-D-BIBLIOGRAPHY",
+      "volume": 1,
+      "output_pdf_pages": [
+        377
+      ],
+      "source_scan_pages": [
+        376
+      ],
+      "type": "bibliographic_reference_uncertain",
+      "source_fragment": "(d) Eckhard §17.23. Thi- 46.50–52. Thibaut logische ... Pandekten 8te Ausg. §45. Auslegung §3.7.17–29.",
+      "description": "The scan supports the cited authors and section/page numbers, but the compressed final references do not uniquely establish the full title and attribution of “Auslegung” in the last clause.",
+      "disposition": "Translate legible references conservatively and retain the abbreviated German citation structure in the translation note; do not expand the title or author.",
+      "status": "unresolved_after_scan_review",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V1-P395-FOOTNOTE-A-TRUNCATED",
+      "volume": 1,
+      "output_pdf_pages": [
+        395
+      ],
+      "source_scan_pages": [
+        394
+      ],
+      "type": "source_footnote_truncation",
+      "source_fragment": "namentlich die sonst unvermeid-",
+      "description": "扫描页脚注a末尾可见该断词后即止；原扫描下一页转入正文，未见脚注续文。译文按可见片段保留截断，未补全。",
+      "disposition": "译为“尤其是那种看似不可避免的——”并保留未决标记；等待后续版本或独立文字证据。",
+      "status": "unresolved_after_scan_review",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V1-P430-FOOTNOTE-F-TRUNCATED",
+      "volume": 1,
+      "output_pdf_pages": [
+        430
+      ],
+      "source_scan_pages": [
+        429
+      ],
+      "type": "source_fragment_unresolved",
+      "source_fragment": "Footnote (f) at the foot of printed page 373 ends with “als die Obligationen,”; the following scan page starts the main text and provides no continuation.",
+      "status": "unresolved_scan_source_truncated",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V1-P487-ERRATA-295-UNCERTAIN",
+      "volume": 1,
+      "output_pdf_pages": [
+        487
+      ],
+      "source_scan_pages": [
+        486
+      ],
+      "type": "printed_erratum_ambiguous",
+      "source_fragment": "第295页注c第3行的勘误两词在扫描件中看似均为“quae”。",
+      "description": "勘误表原件中待改词与改正词的字形似乎相同，无法仅凭扫描图确定是否存在细微字形差别；译文忠实照录并标明未决，不自行改造拉丁词形。",
+      "disposition": "保留原勘误表词形与页位；待独立版本或更清晰书影确认。",
+      "status": "unresolved_scan_checked",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V1-P490-MARKING-UNCERTAIN",
+      "volume": 1,
+      "output_pdf_pages": [
+        490
+      ],
+      "source_scan_pages": [
+        489
+      ],
+      "type": "non_body_marking_uncertain",
+      "source_fragment": "扫描页下方印记疑似“Törster Buchb.”",
+      "description": "该印记位于页底且不属正文；字样可辨部分不足以确认全称或性质。",
+      "disposition": "标注为非正文书商/装订印记，不纳入作者译文；保留不确定记录。",
+      "status": "unresolved_scan_checked",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V2-P18-FOOTNOTE-A-TRUNCATED",
+      "volume": 2,
+      "output_pdf_pages": [
+        18
+      ],
+      "source_scan_pages": [
+        16
+      ],
+      "type": "source_footnote_truncated",
+      "source_fragment": "Cum igitur hominum causa omne jus constitutum sit; pri-",
+      "description": "标题页脚注(a)的拉丁引文在原页止于断词“pri-”，当前页及相邻扫描页未显示其续文。",
+      "disposition": "保留可辨拉丁文并附局部中文译义；不补全残句。",
+      "status": "unresolved_source_fragment",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V2-P20-FINGER-OCCLUSION",
+      "volume": 2,
+      "output_pdf_pages": [
+        20
+      ],
+      "source_scan_pages": [
+        18
+      ],
+      "type": "scan_occlusion",
+      "description": "扫描页18底部数行被手指遮挡。可读正文翻译到遮挡处，受遮挡部分保持未决。",
+      "disposition": "在译文标记遮挡范围；不猜补，不执行OCR。",
+      "status": "unresolved_scan_occlusion",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V2-P28-MISSING-PRINTED-FOLIOS-12-13",
+      "volume": 2,
+      "output_pdf_pages": [
+        27,
+        28
+      ],
+      "source_scan_pages": [
+        25,
+        26
+      ],
+      "type": "missing_source_scan_pages",
+      "description": "Source scan folio sequence jumps from printed page 11 at source scan page 25 to printed page 14 at source scan page 26. Printed pages 12–13 are absent from the provided scan and corresponding text PDF mapping; page 14 begins mid-sentence. The visible remainder is translated, but missing text is not reconstructed.",
+      "status": "unresolved_missing_source_pages",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V2-P28-BODY-FOOTNOTE-FLOW-UNCERTAIN",
+      "volume": 2,
+      "output_pdf_pages": [
+        28,
+        29
+      ],
+      "source_scan_pages": [
+        26,
+        27
+      ],
+      "type": "uncertain_body_footnote_boundary",
+      "description": "The visible line at the foot of printed page 14 merges the mother losing freedom with a continuation on printed page 15; an additional readable sentence about losing a child and inheritance under the SC Tertullianum appears in the same lower area, where body/footnote segmentation is unclear. Missing printed folios 12–13 also prevent recovery of preceding context. The visible words are translated with the boundary left explicit; no connective text is supplied.",
+      "status": "unresolved_after_scan_review",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V2-P34-FOOTNOTE-C-TRUNCATED",
+      "volume": 2,
+      "output_pdf_pages": [
+        34,
+        35
+      ],
+      "source_scan_pages": [
+        32,
+        33
+      ],
+      "type": "unresolved_scan_footnote",
+      "source_fragment": "Die Frage kommt hauptsächlich vor bey der",
+      "description": "Footnote (c) at the bottom of printed page 18 ends after “bey der”; the next scan page begins main text and does not continue the note. The readable fragment is translated and the continuation is left unresolved.",
+      "status": "unresolved_after_scan_review",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V2-P36-FOOTNOTE-E-CROSS_PAGE",
+      "volume": 2,
+      "output_pdf_pages": [
+        36,
+        37
+      ],
+      "source_scan_pages": [
+        34,
+        35
+      ],
+      "type": "source_footnote_continuation",
+      "description": "脚注(e)原扫描页34末尾清晰止于“L.32”。随后输出页37／原扫描页35已核读，正文从§63续起，页脚仅为脚注(f)、(g)，未见(e)续文。",
+      "disposition": "译文保留引文残段“L.32”并标明原件页末截断；不补全出处。",
+      "status": "unresolved_after_scan_review",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V2-P57-FOOTNOTE-I-TRUNCATED",
+      "volume": 2,
+      "output_pdf_pages": [
+        57,
+        58
+      ],
+      "source_scan_pages": [
+        55,
+        56
+      ],
+      "type": "source_footnote_truncated",
+      "source_fragment": "Mancipatio locum habet inter cives Romanos, et Lati-",
+      "description": "注(i)在扫描页脚可读至“et Lati-”，原页裁切/续文未见于下一张扫描页。翻译保留可见拉丁片段并标明缺口；未使用提取层补全。",
+      "status": "unresolved_after_scan_review",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V2-P59-FOOTNOTE-L-TRAILING-CITATION",
+      "volume": 2,
+      "output_pdf_pages": [
+        59,
+        60
+      ],
+      "source_scan_pages": [
+        57,
+        58
+      ],
+      "type": "source_footnote_truncated",
+      "source_fragment": "Vgl.",
+      "description": "注(l)在扫描页脚只留下“Vgl.”（“参见”），未见其后引证；正文及可读注释已译，缺失引证未猜补。",
+      "status": "unresolved_after_scan_review",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V2-P79-FOOTNOTE-E-CROPPED",
+      "volume": 2,
+      "output_pdf_pages": [
+        79,
+        80
+      ],
+      "source_scan_pages": [
+        77,
+        78
+      ],
+      "type": "source_footnote_truncated",
+      "source_fragment": "Man könnte vielleicht noch einen andern Fall dahin rechnen, die Verwandlung des Freygeborenen in einen Freygelassenen. Dieser Fall kann nur … die einen fremden Skla-",
+      "description": "脚注(e)提出生来自由者转为获释自由人的情形，但原扫描页脚在“die einen fremden Skla-”处裁切；下一张扫描页未见续文。仅翻译可读片段，不补齐。",
+      "status": "unresolved_after_scan_review",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V2-P87-FOOTNOTE-C-TRUNCATED",
+      "volume": 2,
+      "output_pdf_page": 87,
+      "source_scan_pages": [
+        85
+      ],
+      "type": "source_footnote_truncated",
+      "source_fragment": "deportatus… mortui loco habe-",
+      "description": "脚注(c)引D.38.2.4 §2在原扫描页脚以“habe-”截断，下一扫描页未见续文；只保留可见词干，不推补词尾。",
+      "status": "unresolved_after_scan_review",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V2-P103-FOOTNOTE-Y-TRUNCATED",
+      "volume": 2,
+      "output_pdf_page": 103,
+      "source_scan_pages": [
+        101
+      ],
+      "type": "source_footnote_truncated",
+      "source_fragment": "L.19 de…",
+      "description": "脚注(y)页脚末尾只能辨认“L.19 de”，下一扫描页转入正文，未补全法源。",
+      "status": "unresolved_after_scan_review",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V2-P110-FOOTNOTE-F-TRUNCATED",
+      "volume": 2,
+      "output_pdf_page": 110,
+      "source_scan_pages": [
+        108
+      ],
+      "type": "source_footnote_truncated",
+      "source_fragment": "Dieser Ausdruck findet sich",
+      "description": "扫描页108下缘原注(f)仅余“Dieser Ausdruck findet sich”，扫描页109无续文；保留可见部分并登记未决，不猜补引文。",
+      "status": "unresolved_after_scan_review",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V2-P111-FOOTNOTE-I-TRUNCATED",
+      "volume": 2,
+      "output_pdf_page": 111,
+      "source_scan_pages": [
+        109
+      ],
+      "type": "source_footnote_truncated",
+      "source_fragment": "dennoch ist sie eine gewöhn-",
+      "description": "扫描页109下缘原注(i)停在“gewöhn-”；扫描页110没有续文，保留可见内容并登记未决。",
+      "status": "unresolved_after_scan_review",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V2-P127-129-BODY-GAP",
+      "volume": 2,
+      "output_pdf_pages": [
+        127,
+        128,
+        129
+      ],
+      "source_scan_pages": [
+        125,
+        126,
+        127
+      ],
+      "type": "source_body_continuation_with_unreadable_middle_page",
+      "description": "扫描页125末句在‘wel-’处断开，扫描页126严重污损，扫描页127起首接续房屋用益权论述。中间文句无法依据原扫描可靠辨读，已保留未决标记。",
+      "status": "open_unresolved_source_scan",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V2-P128-SCAN-UNREADABLE",
+      "volume": 2,
+      "output_pdf_page": 128,
+      "source_scan_pages": [
+        126
+      ],
+      "type": "source_scan_unreadable",
+      "description": "印刷页110原扫描严重污损，正文和注释无法可靠辨读。当前环境不存在ocr_agent，Paddle相关Python包及既定虚拟环境也不可用；未运行OCR，整页留作未决且未依据邻页补写。",
+      "status": "open_unresolved_source_scan",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V2-P129-FOOTNOTE-M-UNREADABLE",
+      "volume": 2,
+      "output_pdf_pages": [
+        129
+      ],
+      "source_scan_pages": [
+        127
+      ],
+      "type": "source_footnote_partially_unreadable",
+      "description": "印刷页111脚注(m)下部扫描污损；可辨部分作说明，不能确认的词句留作未决。",
+      "status": "open_unresolved_source_scan",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V2-PRINT-PAGES-142-143-MISSING",
+      "volume": 2,
+      "output_pdf_pages": [
+        159,
+        160
+      ],
+      "source_scan_pages": [
+        157,
+        158
+      ],
+      "type": "missing_printed_pages_in_source_scan",
+      "description": "扫描页157页眉为印刷页141，下一扫描页158页眉为印刷页144；印刷页142–143在现有扫描序列中缺失。印刷页141脚注(r)的拉丁引文止于“in ipsum dandam”，续文无法核定，未补写。",
+      "status": "open_unresolved_source_gap",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V2-P160-GEHEN-TERM-UNCERTAIN",
+      "volume": 2,
+      "output_pdf_pages": [
+        160
+      ],
+      "source_scan_pages": [
+        158
+      ],
+      "type": "source_term_semantics_uncertain",
+      "description": "印刷页144扫描原文清楚读作“das Gehen / des Gehens”；词形可辨，但在“Detention oder das Gehen stipuliren”语境中的法律含义无法据本段唯一确定。译文保留原词，不猜译。",
+      "status": "open_unresolved_translation_question",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V2-P192-AUTH-HABITA-APPARATUS-ORDER",
+      "volume": 2,
+      "output_pdf_pages": [
+        192,
+        193
+      ],
+      "source_scan_pages": [
+        190,
+        191
+      ],
+      "type": "source_layout_order_uncertain",
+      "description": "印刷页174–175的《Auth. Habita》相关法条引文与脚注在原页栏位中相互穿插；扫描可确认保护法学学生这一规则及相邻引文，但无法无歧义恢复全部引文的阅读次序。译文仅呈现可确认的规则，并保留原有脚注锚点；未补造或重排残缺引文。",
+      "disposition": "保留该处译文的规则概述；如后续获得更清晰版本，再核定逐字引文。",
+      "status": "open_source_layout_uncertainty",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V2-P220-FOOTNOTE-B-TRUNCATED",
+      "volume": 2,
+      "output_pdf_page": 220,
+      "source_scan_pages": [
+        218,
+        219
+      ],
+      "type": "source_footnote_uncertain",
+      "source_fragment": "Die Schlußworte sagen ja sehr deutlich nicht mehr als Gol-",
+      "description": "原扫描页218在注(b)末尾清晰止于词首“Gol-”；次页扫描页219可见注(c)续文，但未见注(b)后续。仅凭现存扫描不能确定该词及其后文。",
+      "disposition": "中译保留“Gol-”词首并标出未决；不猜补，不运行OCR。",
+      "status": "unresolved_after_scan_review",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": 2,
+      "output_pdf_page": 249,
+      "source_scan_page": 247,
+      "source_fragment": "(a) L.6 C. de paganis (1.11). (1.9).",
+      "status": "unresolved_citation_association",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V2-P278-FOOTNOTE-S-UNCLEAR-CITATION",
+      "volume": 2,
+      "output_pdf_pages": [
+        278
+      ],
+      "source_scan_pages": [
+        276
+      ],
+      "type": "source_footnote_uncertain",
+      "source_fragment": "Nach STRYX us.",
+      "description": "脚注(s)末尾缩写在原扫描中可辨为“Nach STRYX us.”，但其所指作者姓名及书目未能从该页唯一确定。译文保留原字样，不作扩写。",
+      "status": "unresolved_after_scan_review",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V2-P416-FOOTNOTE-P-BIBLIOGRAPHY-TRUNCATED",
+      "volume": 2,
+      "output_pdf_page": 416,
+      "source_scan_pages": [
+        414
+      ],
+      "type": "incomplete_source_reference",
+      "source_fragment": "Mittermaier, neues - 320.",
+      "description": "原扫描脚注引文自身止于“neues - 320.”，书名或完整出处无法从本页文字唯一确定；译文保留书目信息残片，不据猜测补全。",
+      "status": "unresolved_source_reference_fragment",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": 2,
+      "output_pdf_page": 482,
+      "source_scan_page": 480,
+      "source_fragment": "Gaius I. §162: the words relevant to the minimum capitis deminutio definition",
+      "status": "unresolved_source_text_lacuna",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V02-P502-FOOTNOTE-B-TRUNCATED",
+      "volume": 2,
+      "output_pdf_pages": [
+        502
+      ],
+      "source_scan_pages": [
+        500
+      ],
+      "type": "unresolved_scan_text",
+      "source_fragment": "(b) Niebuhr Römische Ge-",
+      "description": "脚注（b）在原扫描页底部截断为“Niebuhr Römische Ge-”；下一扫描页没有可确认的续文。中文只译可辨书名开头并保留截断标记，不猜补书目。",
+      "status": "unresolved_after_scan_review",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V02-P511-FOOTNOTE-A-TRUNCATED",
+      "volume": 2,
+      "output_pdf_pages": [
+        511
+      ],
+      "source_scan_pages": [
+        509
+      ],
+      "type": "unresolved_scan_text",
+      "source_fragment": "auch diese Aussicht ist für das Kind des Arrogirten durch die Arrogation nur möglicherweise",
+      "description": "脚注（a）在原扫描页底部中断于“nur möglicherweise”；下一页没有该注续文。译文保留可读论证并标明原注截断，不补足句意。",
+      "status": "unresolved_after_scan_review",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V02-P514-GAIUS-I-162-LACUNA",
+      "volume": 2,
+      "output_pdf_pages": [
+        514,
+        515
+      ],
+      "source_scan_pages": [
+        512,
+        513
+      ],
+      "type": "source_textual_lacuna",
+      "source_fragment": "Gaius I.162: “... quotiens quisque mancipetur, a—tur, totiens capite minuatur.”",
+      "description": "原版盖尤斯引文在a—tur处有明确缺文；后文讨论编辑者补作aut与作者建议ac/atque的差别。译文保留原版缺文并转录校勘建议，不静默补字。",
+      "status": "unresolved_lacuna_preserved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V02-P527-MISSBRAUCH-SEMANTICS",
+      "volume": 2,
+      "output_pdf_pages": [
+        527
+      ],
+      "source_scan_pages": [
+        525
+      ],
+      "type": "source_term_semantics_uncertain",
+      "source_fragment": "Mißbrauchs",
+      "description": "原扫描词形清楚可辨，但其在本句中的具体所指不能由上下文唯一确定；译文保留德文并暂译为“滥用”，不进一步解释。未运行OCR。",
+      "status": "unresolved_after_scan_review",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V2-PRINT-PAGES-554-555-MISSING",
+      "volume": 2,
+      "output_pdf_pages": [
+        572
+      ],
+      "source_scan_pages": [
+        569,
+        570
+      ],
+      "type": "missing_printed_pages_in_source_scan",
+      "description": "原扫描序列在印刷页553（扫描页569）后直接跳至印刷页556（扫描页570）；印刷页554–555缺失。第572页译文仅处理现存扫描可见文字，页首承接部分不作推补。",
+      "status": "open_unresolved_source_gap",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v3_missing_src004_annotation",
+      "volume": 3,
+      "output_pdf_page": 6,
+      "description": "手写馆藏编号/标记无法可靠逐字符辨认；藏书签印刷字 Taylor Institution 可读。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v3_missing_src005_embossing",
+      "volume": 3,
+      "output_pdf_page": 7,
+      "description": "内封纸上极淡压印图案无法确认是否含文字。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v3_missing_src010_stamp",
+      "volume": 3,
+      "output_pdf_page": 12,
+      "description": "书名页背面下缘圆形印迹被截断，印章文字无法辨认。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v3-p16-note-a-kinship-condition",
+      "volume": 3,
+      "output_pdf_page": 18,
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v3-p18-note-c-interesse",
+      "volume": 3,
+      "output_pdf_page": 20,
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v3-p19-note-e-notfrist",
+      "volume": 3,
+      "output_pdf_page": 21,
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v3-p25-mancipii-causa-term",
+      "volume": 3,
+      "output_pdf_page": 27,
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v3-p37-top-heading-structure",
+      "volume": 3,
+      "output_pdf_page": 39,
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v3-p38-pubertas-oldest-wording",
+      "volume": 3,
+      "output_pdf_page": 40,
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v3-p75-note-i-truncated-sueton-augustus",
+      "volume": 3,
+      "output_pdf_page": 77,
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v3-p83-geschlechtstutel-term",
+      "volume": 3,
+      "output_pdf_page": 85,
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v3-p87-note-g-addicere-abdicatio",
+      "volume": 3,
+      "output_pdf_page": 89,
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v3-p90-spadones-category",
+      "volume": 3,
+      "output_pdf_page": 92,
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v3-p92-rel-end-marker",
+      "volume": 3,
+      "output_pdf_page": 94,
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v3-p155-note-k-source-truncated",
+      "volume": 3,
+      "output_pdf_page": 157,
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v3-p167-note-k-praeposterum-term",
+      "volume": 3,
+      "output_pdf_page": 169,
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v3-p177-source-header-section-number-variant",
+      "volume": 3,
+      "output_pdf_page": 179,
+      "disposition": "Unresolved source-print header variant; do not treat as an OCR correction.",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v3-p317-footnote-u-v-column-continuation",
+      "volume": 3,
+      "output_pdf_page": 319,
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v3-p363-papinian-context-uncertain",
+      "volume": 3,
+      "output_pdf_page": 365,
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v3-p445-zollgesetze-legal-referent-unresolved",
+      "volume": 3,
+      "output_pdf_page": 447,
+      "disposition": "Unresolved lexical referent retained for later glossary review.",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v3-p449-note-f-author-unresolved",
+      "volume": 3,
+      "output_pdf_page": 451,
+      "disposition": "Authorial uncertainty preserved in translation.",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v3-p476-footnote-f-scholar-name",
+      "volume": 3,
+      "output_pdf_page": 478,
+      "disposition": "Unresolved scan reading retained explicitly in the lane translation.",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v3-p486-note-d-title-truncated",
+      "volume": 3,
+      "output_pdf_page": 488,
+      "disposition": "Unresolved source-footnote truncation retained in the lane translation.",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v4-p4-handwritten-bookplate-mark",
+      "volume": 4,
+      "output_pdf_page": 6,
+      "disposition": "Nontext library mark; retained as unresolved marginalia, not translated.",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v4-toc-s181-regular-reduction",
+      "volume": 4,
+      "output_pdf_page": 15,
+      "disposition": "Tentative TOC translation retained with original German term.",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v4-p16-note-b-truncated-citation",
+      "volume": 4,
+      "output_pdf_page": 18,
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v4-p80-note-q-sportulae-context",
+      "volume": 4,
+      "output_pdf_page": 82,
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v4-p102-note-b-scholar-name",
+      "volume": 4,
+      "output_pdf_page": 104,
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v4-p106-note-g-senatusconsult-reason",
+      "volume": 4,
+      "output_pdf_page": 108,
+      "disposition": "保留未决；不影响正文规则翻译。",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v4-p159-note-w-author-abbreviation",
+      "volume": 4,
+      "output_pdf_page": 161,
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v4-p169-note-r-author-name",
+      "volume": 4,
+      "output_pdf_page": 171,
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v4-p213-note-h-commentator-name",
+      "volume": 4,
+      "output_pdf_page": 215,
+      "disposition": "未决书目姓名；待更清晰的同版扫描或可靠书目依据确认。",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v4-p235-note-i-truncated-reference",
+      "volume": 4,
+      "output_pdf_page": 237,
+      "disposition": "Citation fragment preserved as printed; incomplete reference recorded as unresolved.",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v4-p341-note-m-truncated-at-scan-edge",
+      "volume": 4,
+      "output_pdf_page": 344,
+      "disposition": "Unresolved source truncation; visible text retained.",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v4-p390-note-d-scan-truncated-tail",
+      "volume": 4,
+      "output_pdf_page": 393,
+      "disposition": "Unresolved original-scan truncation; visible text retained.",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v4-p399-note-o-scan-truncated-tail",
+      "volume": 4,
+      "output_pdf_page": 402,
+      "disposition": "Unresolved original-scan truncation; visible text retained.",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v4-p495-note1-roch-rade-citation",
+      "volume": 4,
+      "output_pdf_page": 498,
+      "disposition": "Unresolved source attribution; visible spelling retained.",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v4-p510-note-d-author-name-undetermined",
+      "volume": 4,
+      "output_pdf_page": 513,
+      "disposition": "Unresolved source attribution; likely visible reading retained.",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v4-p542-note-g-truncated-reference",
+      "volume": 4,
+      "output_pdf_page": 545,
+      "disposition": "Unresolved source citation; original scan shows no continuation.",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v4-p591-note-a-scan-truncated-citation",
+      "volume": 4,
+      "output_pdf_page": 594,
+      "disposition": "Unresolved source reading; visible spelling retained.",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "5",
+      "output_pdf_page": 6,
+      "source_scan_page": 4,
+      "type": "unresolved_non_body_library_mark",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "5",
+      "output_pdf_page": 12,
+      "source_scan_page": 10,
+      "type": "unresolved_non_body_library_mark",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "5",
+      "output_pdf_page": 35,
+      "source_scan_page": 33,
+      "type": "uncertain_secondary_citation_transcription",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "5",
+      "output_pdf_page": 50,
+      "source_scan_page": 48,
+      "type": "uncertain_secondary_bibliography_name",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "5",
+      "output_pdf_pages": [
+        151,
+        152,
+        153,
+        154
+      ],
+      "source_scan_pages": [
+        149,
+        150,
+        151,
+        152
+      ],
+      "type": "source_print_page_sequence_discontinuity",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "5",
+      "output_pdf_page": 186,
+      "source_scan_page": 184,
+      "type": "uncertain_source_footnote_marker_association",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "5",
+      "output_pdf_page": 228,
+      "source_scan_page": 226,
+      "type": "uncertain_source_citation_notation",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "5",
+      "output_pdf_page": 229,
+      "source_scan_page": 227,
+      "type": "source_footnote_fragment_incomplete",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "5",
+      "output_pdf_pages": [
+        229,
+        232,
+        234,
+        235,
+        236
+      ],
+      "source_scan_pages": [
+        227,
+        230,
+        232,
+        233,
+        234
+      ],
+      "type": "source_print_page_sequence_discontinuity",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "5",
+      "output_pdf_page": 257,
+      "source_scan_page": 255,
+      "type": "uncertain_secondary_bibliography_name",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "5",
+      "output_pdf_page": 259,
+      "source_scan_page": 257,
+      "type": "uncertain_secondary_bibliography_name",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "5",
+      "output_pdf_page": 277,
+      "source_scan_page": 275,
+      "type": "source_footnote_fragment_incomplete",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "5",
+      "output_pdf_pages": [
+        277,
+        278,
+        279
+      ],
+      "source_scan_pages": [
+        275,
+        276,
+        277
+      ],
+      "type": "source_print_page_sequence_discontinuity",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "5",
+      "output_pdf_page": 280,
+      "source_scan_page": 278,
+      "type": "source_footnote_fragment_incomplete",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "5",
+      "output_pdf_page": 285,
+      "source_scan_page": 282,
+      "type": "source_footnote_fragment_incomplete",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "5",
+      "output_pdf_page": 302,
+      "source_scan_page": 299,
+      "type": "source_footnote_fragment_incomplete",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "5",
+      "output_pdf_page": 304,
+      "source_scan_page": 301,
+      "type": "source_footnote_fragment_incomplete",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "5",
+      "output_pdf_page": 324,
+      "source_scan_page": 321,
+      "type": "uncertain_author_name_in_footnote",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "5",
+      "output_pdf_page": 324,
+      "source_scan_page": 321,
+      "type": "source_footnote_fragment_incomplete",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "5",
+      "output_pdf_page": 333,
+      "source_scan_page": 330,
+      "type": "source_footnote_fragment_incomplete",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "5",
+      "output_pdf_page": 345,
+      "source_scan_page": 342,
+      "type": "source_footnote_fragment_incomplete",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "5",
+      "output_pdf_page": 350,
+      "source_scan_page": 347,
+      "type": "source_footnote_fragment_incomplete",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "5",
+      "output_pdf_page": 357,
+      "source_scan_page": 354,
+      "type": "uncertain_author_name_in_footnote",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "5",
+      "output_pdf_page": 442,
+      "source_scan_page": 439,
+      "type": "source_footnote_fragment_incomplete",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "5",
+      "output_pdf_page": 655,
+      "source_scan_page": 652,
+      "type": "uncertain_secondary_textual_author_name",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "5",
+      "output_pdf_pages": [
+        665,
+        666
+      ],
+      "source_scan_pages": [
+        662,
+        663
+      ],
+      "type": "source_printed_page_body_repetition_sequence_anomaly",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "5",
+      "output_pdf_page": 665,
+      "source_scan_page": 662,
+      "type": "uncertain_secondary_textual_author_name",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "6",
+      "output_pdf_page": 6,
+      "source_scan_page": 4,
+      "type": "unreadable_library_annotation",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "6",
+      "output_pdf_page": 7,
+      "source_scan_page": 5,
+      "type": "unreadable_nontext_binding_mark",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "6",
+      "output_pdf_page": 12,
+      "source_scan_page": 10,
+      "type": "unreadable_library_annotation",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "6",
+      "output_pdf_page": 18,
+      "source_scan_page": 16,
+      "type": "unreadable_library_mark_and_text_layer_mismatch",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "6",
+      "output_pdf_page": 40,
+      "type": "unreadable_original_scan_page",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "6",
+      "output_pdf_page": 41,
+      "type": "unreadable_original_scan_page",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "6",
+      "output_pdf_page": 52,
+      "type": "citation_bibliographic_text_uncertain",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "6",
+      "output_pdf_page": 56,
+      "type": "source_footnote_fragment_incomplete",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "6",
+      "output_pdf_page": 65,
+      "type": "source_footnote_fragment_incomplete",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "6",
+      "output_pdf_pages": [
+        67,
+        68
+      ],
+      "type": "source_print_page_sequence_gap",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "6",
+      "output_pdf_pages": [
+        111,
+        112
+      ],
+      "type": "source_print_page_sequence_gap",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "6",
+      "output_pdf_page": 111,
+      "type": "source_footnote_fragment_incomplete",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "6",
+      "output_pdf_page": 143,
+      "type": "uncertain_latin_secondary_quotation",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "6",
+      "output_pdf_page": 188,
+      "type": "source_footnote_fragment_incomplete",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "6",
+      "output_pdf_page": 302,
+      "source_scan_page": 300,
+      "type": "bibliographic_cross_reference",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": "6",
+      "output_pdf_page": 302,
+      "source_scan_page": 300,
+      "type": "bibliographic_page_sequence",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V6-PP302-NOTE-E-TAIL",
+      "volume": 6,
+      "output_pdf_page": 322,
+      "type": "footnote_fragment_cut_off_in_scan",
+      "status": "unresolved_source_scan_incomplete",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V6-PP316-NOTE-E-REF-HEADING",
+      "volume": 6,
+      "output_pdf_page": 336,
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V6-PP319-NOTE-L-TAIL",
+      "volume": 6,
+      "output_pdf_page": 339,
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V6-PP334-NOTE-I-WORD",
+      "volume": 6,
+      "output_pdf_page": 354,
+      "status": "unresolved_source_spelling_bounded",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "volume": 6,
+      "output_pdf_page": 362,
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V6-PP403-NOTE-N-TAIL",
+      "volume": 6,
+      "output_pdf_page": 423,
+      "status": "unresolved_scan_fragment",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V6-PP408-NOTE-S-BIBLIOGRAPHY",
+      "volume": 6,
+      "output_pdf_page": 428,
+      "status": "unresolved_source_bibliography_attribution",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V6-PP423-NOTE-I-AUTHOR",
+      "volume": 6,
+      "output_pdf_page": 443,
+      "status": "unresolved_scan_reading",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V6-PP426-PARTY-ROLE-PHRASING",
+      "volume": 6,
+      "output_pdf_page": 446,
+      "status": "unresolved_source_wording",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V6-PP428-NOTE-I-CITATION",
+      "volume": 6,
+      "output_pdf_page": 448,
+      "status": "unresolved_citation_attribution",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "U-v06-441-01",
+      "volume": 6,
+      "output_pdf_pages": [
+        461,
+        462
+      ],
+      "source_fragment": "Diese Erklärung findet sich bei",
+      "status": "unresolved_from_source_scan",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "U-v06-461-01",
+      "volume": 6,
+      "output_pdf_pages": [
+        481
+      ],
+      "source_fragment": "Eine actio rupti testamenti gibt es ja ohnehin nicht, sondern nur eine hereditatis petitio, zu deren Rechtfer-",
+      "status": "unresolved_from_original_scan",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "U-v06-p503-note-a",
+      "volume": 6,
+      "output_pdf_pages": [
+        523
+      ],
+      "source_fragment": "DONELLUS Lib. 22 C. 5 dann noch bestimmter gegen das §9.",
+      "status": "textually_legible_reference_relation_unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V06-OUT548-LATIN-EUM-IS",
+      "volume": 6,
+      "output_pdf_pages": [
+        548
+      ],
+      "output_pdf_page": 548,
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V06P557_TEXT_LAYER_IMAGE_MISMATCH",
+      "volume": 6,
+      "output_pdf_page": 557,
+      "disposition": "不译入正文；保留空白页记录并交主编处理文字层异物。",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V06P559_TEXT_LAYER_IMAGE_MISMATCH",
+      "volume": 6,
+      "output_pdf_page": 559,
+      "disposition": "不译入正文；标记为疑似文字层噪声，不判断其来源。",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V06P560_TEXT_LAYER_IMAGE_MISMATCH",
+      "volume": 6,
+      "output_pdf_page": 560,
+      "disposition": "不译入正文；保留非正文页况和文字层不匹配记录。",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V06P562_TEXT_LAYER_IMAGE_MISMATCH",
+      "volume": 6,
+      "output_pdf_page": 562,
+      "disposition": "不译入正文；标记为文字层残留。",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V7-P011-TITLE-SUBTITLE-NUMERAL",
+      "volume": 7,
+      "output_pdf_page": 11,
+      "source_scan_pages": [
+        9
+      ],
+      "type": "title_subtitle_numbering_ambiguous",
+      "description": "题名页扫描字迹可辨，但两个“6.”究竟是巴伐利亚与符腾堡特权各自的编号，还是数量表述，无法仅凭页内上下文判定。",
+      "disposition": "中文题名暂译为“巴伐利亚与符腾堡特权”，同时保留完整德文原句；不把“6.”确定为编号或数量。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V7-P023-P024-OATH-TERMS",
+      "volume": 7,
+      "output_pdf_page": 23,
+      "source_scan_pages": [
+        21,
+        22
+      ],
+      "type": "historical_legal_term_translation_uncertain",
+      "description": "§310中“Zuschiebung des Eides”与“Erlaß des zugeschobenen Eides”的程序法细义仅凭目录无法完全确定。",
+      "disposition": "暂译为“提出宣誓……对已提出之誓言的免除”，并在术语表保留德文待考。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V7-P023-TOC-BESETZUNG-TERM",
+      "volume": 7,
+      "output_pdf_page": 23,
+      "source_scan_pages": [
+        21
+      ],
+      "type": "historical_legal_term_translation_uncertain",
+      "description": "目录中的“Besetzung der Rechte”字形清楚，但仅凭目录无法确定其在本书体系中的确切法律语义。",
+      "disposition": "目录译文保留Besetzung原词并提示中文义待考；不以现代概念强行替换。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V7-P105-FOOTNOTE-BUCHTA-P-ABBREVIATION",
+      "volume": 7,
+      "output_pdf_page": 105,
+      "source_scan_pages": [
+        103
+      ],
+      "type": "bibliographic_abbreviation_uncertain",
+      "description": "旧译误作Zimmern §136并漏列C.50、51、Buchta引文及短引句；现已按扫描件补正可确认内容，保留“p.”并列为未决。",
+      "disposition": "保留原始“p.”缩写，不猜测其含义。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V7-P115-PRINTED-PAGES-90-91-SEQUENCE-GAP",
+      "volume": 7,
+      "output_pdf_pages": [
+        115,
+        116,
+        117,
+        118
+      ],
+      "output_pdf_page": 115,
+      "source_scan_pages": [
+        113,
+        114,
+        115,
+        116
+      ],
+      "type": "source_sequence_gap",
+      "description": "印刷页90–91的续文未出现在这一段扫描顺序中，PDF第115页末句不能接续；重复页已按实际页位单独映射。",
+      "disposition": "保留不完整句并记录缺页疑点，不从别处猜补或挪用文字。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V7-P128-FOOTNOTE-G-CITATION-ABBREVIATION",
+      "volume": 7,
+      "output_pdf_page": 128,
+      "source_scan_pages": [
+        126
+      ],
+      "type": "scan_abbreviation_uncertain",
+      "description": "脚注(g)最后一条法源的缩写不能从原扫描可靠辨认，虽卷号与上下文提供线索，也不据此擅自补全。",
+      "disposition": "保留原有缩写并列为未决；不猜补。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "v07_p145_overprinted_text",
+      "volume": 7,
+      "output_pdf_page": 145,
+      "source_scan_page": 143,
+      "type": "source_scan_text_unreadable",
+      "description": "The source scan has severe overprinting in the upper body block; wording cannot be read reliably. Translation omits only this block, marks it unresolved, and translates the clear summary below.",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V7-P304-LOAN-EXCEPTION-SECOND-CONDITION-ILLEGIBLE",
+      "volume": 7,
+      "output_pdf_page": 304,
+      "source_scan_pages": [
+        302
+      ],
+      "type": "scan_text_overprint_unreadable",
+      "description": "该条件会限定未成年人对金钱借贷是否可获恢复原状，法律意义重要；扫描字形无法从原件确认，不能依上下文猜补。",
+      "disposition": "中文译文保留未决标记；不补写条件，等待更清晰版本或可靠校勘本。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V7-P305-WECHSEL-ZUM-DARLEHEN-SEMANTICS",
+      "volume": 7,
+      "output_pdf_page": 305,
+      "source_scan_pages": [
+        303
+      ],
+      "type": "historical_legal_term_ambiguous",
+      "description": "作者举父亲也可能出于恶意自利而使儿子陷入不利的借贷情境，但Wechsel在此处的法律技术含义不明。",
+      "disposition": "译作“一项对儿子不利的借贷交易”，保留原词“Wechsel zum Darlehen”并列为未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V7-P320-FOOTNOTE-B-GREEK-READING",
+      "volume": 7,
+      "output_pdf_page": 320,
+      "source_scan_pages": [
+        318
+      ],
+      "type": "small_greek_quotation_uncertain",
+      "description": "附录XIX注(b)援引《巴西利卡》第2卷第161页，随后附一处希腊文短引；该词不影响正文读法比较，但当前扫描无法可靠定字。",
+      "disposition": "译文保留书目定位，暂不转录希腊词；未依语境猜补。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V7-P327-FOOTNOTE-G-TRUNCATED",
+      "volume": 7,
+      "output_pdf_page": 327,
+      "source_scan_pages": [
+        325
+      ],
+      "type": "footnote_truncated_in_source_scan",
+      "description": "注(g)解释Papinian为何使用placuit一词；尾句缺失，无法从此扫描还原。",
+      "disposition": "翻译可读部分并标记截断；不凭正文上下文补写。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V7-P331-FOOTNOTE-L-LATIN-TAIL",
+      "volume": 7,
+      "output_pdf_page": 331,
+      "source_scan_pages": [
+        329
+      ],
+      "type": "latin_citation_tail_uncertain",
+      "description": "脚注支持时效取得完成后普布利基安诉权不再必要的论证；前半拉丁引文可读，末尾词形不确定。",
+      "disposition": "保留可辨片段与书目定位；未猜补末词。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P3-NONBODY-ANNOTATION",
+      "volume": 8,
+      "output_pdf_page": 3,
+      "source_scan_page": 2,
+      "type": "non_body_handwriting_not_fully_decipherable",
+      "disposition": "馆藏手写分类/索书号未全部辨读，不转录进作者正文。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P7-NONBODY-ANNOTATION",
+      "volume": 8,
+      "output_pdf_page": 7,
+      "source_scan_page": 6,
+      "type": "non_body_catalog_marks_not_fully_decipherable",
+      "disposition": "馆藏编目手写记号未全部辨读，不转录进作者正文。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P146-FOOTNOTE-I-CITATION-UNCLEAR",
+      "volume": 8,
+      "output_pdf_page": 146,
+      "source_scan_pages": [
+        145
+      ],
+      "type": "bibliographic_citation_uncertain",
+      "description": "脚注(i)在“Schäffner §§24—29”之后，原扫描可读出“... Archiv B.27, S.312”，但首个作者名或刊名缩写的字形无法可靠辨认。",
+      "disposition": "译文暂保留为“[Kori?]《Archiv》第27卷第312页”；不据熟悉程度改写，待后续有独立文字证据时再定。",
+      "status": "unresolved_scan_ambiguous",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P148-LANDSASSIAT-TERM-UNCLEAR",
+      "volume": 8,
+      "output_pdf_page": 148,
+      "source_scan_pages": [
+        147
+      ],
+      "type": "historical_legal_term_uncertain",
+      "description": "原扫描中的“volle Landsassiat”字形可读，但无法仅凭本段判定其所指的历史司法制度及准确中文术语。",
+      "disposition": "暂译为“Landsassiat”并保留原词，不作语义猜补；第159页再次出现、扫描拼写作“Landassiat”，同样保留并交叉登记。",
+      "status": "unresolved_context_insufficient",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P169-TROCKENE-WECHSEL-TERM-UNCLEAR",
+      "volume": 8,
+      "output_pdf_page": 169,
+      "source_scan_pages": [
+        168
+      ],
+      "type": "historical_financial_legal_term_uncertain",
+      "description": "脚注(e)原扫描可读作“trockenen Wechseln”，但本页语境不足以唯一确定其历史票据类别及中文对应术语。",
+      "disposition": "译文保留“trockene Wechsel”原文，并注明待考；不猜译。",
+      "status": "unresolved_context_insufficient",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P183-AUCTOREN-TERM-UNCLEAR",
+      "volume": 8,
+      "output_pdf_page": 183,
+      "source_scan_pages": [
+        182
+      ],
+      "type": "historical_legal_term_uncertain",
+      "description": "扫描可辨该词为“Autoren”；但“Restitution ... auf die Autoren der Unmündigen”中的Autoren在此处具体指何种法律参与人，仅凭本段及上下文未能确定。",
+      "disposition": "译文保留原词Autoren并标注待考，不猜译。",
+      "status": "unresolved_context_insufficient",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P204-S367-KAUFMANNISCHES-ZEICHEN",
+      "volume": 8,
+      "output_pdf_page": 204,
+      "source_scan_pages": [
+        203
+      ],
+      "type": "unresolved_terminology",
+      "description": "脚注(f)原文kaufmännisches Zeichen字样可从扫描读出，但该商业法术语在本段的具体所指无法仅凭上下文确定。",
+      "disposition": "正文暂译“商事标记”并保留德文原词；不作更具体释义，待后续术语核定。",
+      "status": "unresolved_term_context_insufficient",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P240-FOOTNOTE-O-LATIN-FRAGMENT",
+      "volume": 8,
+      "output_pdf_page": 240,
+      "source_scan_pages": [
+        239,
+        240
+      ],
+      "type": "scan_legibility_uncertainty",
+      "disposition": "保留可辨法源片段，不将consti-/locis猜补成特定拉丁词；中文按上下文说明旅行者与当地经营者的区别。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P256-FOOTNOTE-E-CITATION",
+      "volume": 8,
+      "output_pdf_page": 256,
+      "source_scan_pages": [
+        255
+      ],
+      "type": "footnote_print_unclear",
+      "description": "脚注(e)可辨认Wening、《普鲁士普通邦法》I 5 §90以下等引文线索，但后半引文在原扫描的字形与句法无法可靠辨读。",
+      "disposition": "译文保留可确定的作者及法源定位，并标记未能确认的后半引文；未据上下文擅补，未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P281-FOOTNOTE-H-COLUMN-ORDER",
+      "volume": 8,
+      "output_pdf_page": 281,
+      "source_scan_pages": [
+        280
+      ],
+      "type": "scan_legibility_and_footnote_layout",
+      "disposition": "译文仅保留可辨引文与可确认的原则，注明该注其余引文无法逐字确认；未据上下文补全，未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P283-FOOTNOTE-B-CITATION-TAIL",
+      "volume": 8,
+      "output_pdf_page": 283,
+      "source_scan_pages": [
+        282
+      ],
+      "type": "scan_legibility_uncertainty",
+      "disposition": "译文逐字保留不确定的“Stortr”，仅译出可辨定位，并将Wächter后续引文标作残损；不按熟悉程度校改作者或补引文。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P294-FOOTNOTE-V-WEBER-SYNTAX",
+      "volume": 8,
+      "output_pdf_page": 294,
+      "source_scan_pages": [
+        293
+      ],
+      "type": "translation_interpretive_uncertainty",
+      "disposition": "仅翻译可确认的命题；保留德文关键片段并标记该句关系未决，不补写推论。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P303-SCAN-LOWER-DAMAGE",
+      "volume": 8,
+      "output_pdf_page": 303,
+      "source_scan_pages": [
+        302
+      ],
+      "type": "source_scan_image_damage_and_missing_text_layer",
+      "disposition": "依据可辨扫描文字翻译PDF第303页，明确标记自“Die Vorladung…”起无法辨认；不运行OCR、不补写损坏内容。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-SCAN-303-304-BLANK-MAPPED-TEXT",
+      "volume": 8,
+      "output_pdf_pages": [
+        304,
+        305,
+        306,
+        307
+      ],
+      "source_scan_pages": [
+        303,
+        304
+      ],
+      "type": "mapped_source_scan_pages_blank",
+      "disposition": "本批依既有文字层翻译，逐页标为扫描不可核验；不运行OCR、不从空白图猜补。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P305-FOOTNOTE-GG-CITATION",
+      "volume": 8,
+      "output_pdf_page": 305,
+      "source_scan_pages": [
+        303
+      ],
+      "type": "source_text_name_corruption",
+      "disposition": "保留文字层可见的乱码作者名与引证，不根据熟悉度改名。 本轮目视确认两页共用的原扫描第303页全白，故第304页正文与第305页脚注均无法由原件核验。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P307-VORREDE-CROSSCONTAMINATION",
+      "volume": 8,
+      "output_pdf_page": 307,
+      "source_scan_pages": [
+        304
+      ],
+      "type": "source_text_cross_page_contamination",
+      "disposition": "将可辨前言内容与破产正文分开翻译，保留各文字PDF页定位；不将其并入正文，页序仍未决。 本轮另确认输出PDF第306–309页共同映射的原扫描第304页全白，这些文字及前言片段的纸本位置无法由原件核实。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-SCAN-305-BLANK-MAPPED-TEXT",
+      "volume": 8,
+      "output_pdf_pages": [
+        310,
+        311,
+        312,
+        313
+      ],
+      "source_scan_pages": [
+        305
+      ],
+      "type": "mapped_source_scan_page_blank",
+      "disposition": "上述页面依既有文字层翻译并分别标记正文、前言或目录；原扫描白页，无法视觉核验其版面顺序。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P312-313-CONTENTS-FRAGMENT-ALIGNMENT",
+      "volume": 8,
+      "output_pdf_pages": [
+        312,
+        313,
+        315
+      ],
+      "source_scan_pages": [
+        305,
+        306
+      ],
+      "type": "contents_text_fragment_corruption_and_order",
+      "disposition": "仅翻译可读标题，逐项页码配对不确定处保留未决；不根据正文目录倒推补全。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P312-313-CONTENTS-PLACEMENT-UNVERIFIED",
+      "volume": 8,
+      "output_pdf_page": 312,
+      "source_scan_pages": [
+        305
+      ],
+      "type": "contents_text_without_source_scan",
+      "disposition": "保留文字层可辨标题与页码序列，未据章节知识补全或重排；未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-SCAN-306-BLANK-MAPPED-TEXT",
+      "volume": 8,
+      "output_pdf_pages": [
+        314,
+        315
+      ],
+      "source_scan_pages": [
+        306
+      ],
+      "type": "mapped_source_scan_page_blank",
+      "disposition": "依据现有文字层翻译，正文脚注和目录片段分开标示；未运行OCR且不宣称扫描核验。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P315-FOOTNOTE-KK-NAMES",
+      "volume": 8,
+      "output_pdf_page": 315,
+      "source_scan_pages": [
+        306
+      ],
+      "type": "source_text_proper_name_and_citation_corruption",
+      "disposition": "保留文字层可辨形式及其来源定位，不猜正名。 本轮确认输出PDF第314–315页共用的原扫描第306页全白，脚注姓名与书目无法据原件核验。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P316-DUPLICATE-SECTION-FRAGMENT",
+      "volume": 8,
+      "output_pdf_page": 316,
+      "source_scan_pages": [
+        306
+      ],
+      "type": "source_text_duplicate_fragment",
+      "disposition": "本页仍按现有文字层翻译并单独锚定；是否应去重列为未决，不合并或删改原始位置。 本轮确认扫描页306为空白，无法判定该重复片段是否见于纸本。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-SCAN-306-308-BLANK-MAPPED-TEXT",
+      "volume": 8,
+      "output_pdf_pages": [
+        316,
+        317,
+        318,
+        319,
+        320,
+        321,
+        322,
+        323
+      ],
+      "source_scan_pages": [
+        306,
+        307,
+        308
+      ],
+      "type": "mapped_source_scan_pages_blank",
+      "disposition": "依现有文字层逐页翻译；§344/§345/§374片段按PDF页序保留，不推测纸本顺序，不对乱码作猜补。未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P318-FOOTNOTE-AND-HYPOTHEKAR-TAIL",
+      "volume": 8,
+      "output_pdf_page": 318,
+      "source_scan_pages": [
+        307
+      ],
+      "type": "source_text_garbled_continuation",
+      "disposition": "可辨正文翻译至抵押权诉讼；乱码尾部标注未决，不补全德文或中文句意。 本轮确认输出PDF第318–319页共用的原扫描第307页全白，乱码尾部与混入片段无法核验。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P319-321-SECTION-STREAM-ORDER",
+      "volume": 8,
+      "output_pdf_pages": [
+        319,
+        320,
+        321
+      ],
+      "source_scan_pages": [
+        307
+      ],
+      "type": "source_text_cross_section_order_and_corruption",
+      "disposition": "各片段分区翻译并保留输出页锚；不把疑似交错段落重排或据上下文重建缺失原文。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P323-BIBLIOGRAPHY-NAME-TITLE-FRAGMENTS",
+      "volume": 8,
+      "output_pdf_page": 323,
+      "source_scan_pages": [
+        308
+      ],
+      "type": "source_text_proper_name_and_title_corruption",
+      "disposition": "保留文字层原名残片；只翻译可辨标题内容，不将Bunex改成其他姓名，也不根据“delle due”推定完整书名。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P324-325-FOELIX-ROCCO-AND-PAGE-FLOW",
+      "volume": 8,
+      "output_pdf_pages": [
+        324,
+        325
+      ],
+      "source_scan_pages": [
+        308
+      ],
+      "type": "source_text_names_and_section_fragment_order",
+      "disposition": "保留Foxlix文字层读法，翻译可辨书名和正文，不将姓名改为熟悉拼法。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-SCAN-308-310-BLANK-MAPPED-TEXT",
+      "volume": 8,
+      "output_pdf_pages": [
+        324,
+        325,
+        326,
+        327,
+        328,
+        329,
+        330,
+        331
+      ],
+      "source_scan_pages": [
+        308,
+        309,
+        310
+      ],
+      "type": "mapped_source_scan_pages_blank",
+      "disposition": "逐页依文字层翻译，保留章节片段、书目和脚注的输出页位置；未运行OCR、不从空白页补写。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P327-331-CROSS-SECTION-ORDER",
+      "volume": 8,
+      "output_pdf_pages": [
+        327,
+        328,
+        329,
+        330,
+        331
+      ],
+      "source_scan_pages": [
+        309,
+        310
+      ],
+      "type": "source_text_cross_section_interleaving",
+      "disposition": "依文字层输出页顺序翻译并分区标注，不重排章节。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P328-GEOBENS-ETHNONYM",
+      "volume": 8,
+      "output_pdf_page": 328,
+      "source_scan_pages": [
+        309
+      ],
+      "type": "source_text_proper_name_corruption",
+      "disposition": "照录并标记未决，不据熟悉度猜改。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P331-TREATY-CITATIONS-ALIGNMENT",
+      "volume": 8,
+      "output_pdf_page": 331,
+      "source_scan_pages": [
+        310
+      ],
+      "type": "source_text_citation_order_corruption",
+      "disposition": "翻译可辨实体，保留对应关系未决，不重组引文。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P332-334-PARTICULAR-LAW-FOOTNOTE-ORDER",
+      "volume": 8,
+      "output_pdf_pages": [
+        332,
+        333,
+        334
+      ],
+      "source_scan_pages": [
+        310
+      ],
+      "type": "source_text_footnote_and_section_order",
+      "disposition": "按输出页和脚注标记翻译；跨页重复的可见句尾作为脚注续片保留，不移动。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-SCAN-310-312-BLANK-MAPPED-TEXT",
+      "volume": 8,
+      "output_pdf_pages": [
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338,
+        339
+      ],
+      "source_scan_pages": [
+        310,
+        311,
+        312
+      ],
+      "type": "mapped_source_scan_pages_blank",
+      "disposition": "依既有文字层逐页翻译，保留输出页锚和可辨法源；错序、错识和断句列为未决。未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P335-339-CROSS-SECTION-ORDER",
+      "volume": 8,
+      "output_pdf_pages": [
+        335,
+        336,
+        337,
+        338,
+        339
+      ],
+      "source_scan_pages": [
+        311,
+        312
+      ],
+      "type": "source_text_cross_section_interleaving",
+      "disposition": "按文字PDF页序分别翻译§374和§348，不重排、不补写缺失衔接。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P338-LATIN-AUTHOR-NAME",
+      "volume": 8,
+      "output_pdf_page": 338,
+      "source_scan_pages": [
+        311
+      ],
+      "type": "source_text_proper_name_corruption",
+      "disposition": "拉丁引文照录并附中文译意；乱码作者名不据熟悉度订正。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P340-342-ARTICLE-349-LIST-AND-CITATION",
+      "volume": 8,
+      "output_pdf_pages": [
+        340,
+        341,
+        342
+      ],
+      "source_scan_pages": [
+        312
+      ],
+      "type": "source_text_fragment_and_citation_order",
+      "disposition": "翻译可辨正文和引证，保留日期与编号关系的不确定性，不补写缺失片段。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-SCAN-312-314-BLANK-MAPPED-TEXT",
+      "volume": 8,
+      "output_pdf_pages": [
+        340,
+        341,
+        342,
+        343,
+        344,
+        345,
+        346,
+        347
+      ],
+      "source_scan_pages": [
+        312,
+        313,
+        314
+      ],
+      "type": "mapped_source_scan_pages_blank",
+      "disposition": "依据既有文字层逐页翻译，保留页锚；无法确定的人名、编号及跨页衔接列入未决，不运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P343-347-INHERITANCE_AND_EXCEPTIONS-ORDER",
+      "volume": 8,
+      "output_pdf_pages": [
+        343,
+        344,
+        345,
+        346,
+        347
+      ],
+      "source_scan_pages": [
+        313,
+        314
+      ],
+      "type": "source_text_cross_section_order",
+      "disposition": "按输出页顺序分别翻译，不跨页拼接或重新排列章节。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P346-FOOTNOTE-NUMBER",
+      "volume": 8,
+      "output_pdf_page": 346,
+      "source_scan_pages": [
+        313
+      ],
+      "type": "source_text_footnote_number_and_order_corruption",
+      "disposition": "按可辨义译出并明确脚注号、句序未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P348-350-SECTION-ORDER",
+      "volume": 8,
+      "output_pdf_pages": [
+        348,
+        349,
+        350
+      ],
+      "source_scan_pages": [
+        314
+      ],
+      "type": "source_text_cross_section_interleaving",
+      "disposition": "依输出页顺序分段翻译，继承法片段和§350正文分别标注，不合并或挪动。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-SCAN-314-315-BLANK-MAPPED-TEXT",
+      "volume": 8,
+      "output_pdf_pages": [
+        348,
+        349,
+        350,
+        351,
+        352,
+        353,
+        354,
+        355
+      ],
+      "source_scan_pages": [
+        314,
+        315
+      ],
+      "type": "mapped_source_scan_pages_blank",
+      "disposition": "依文字层分段翻译并保留输出页定位；跨章内容不重排，异文和引文错识列入未决。未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P352-355-ROMAN-CITATION-VARIANTS",
+      "volume": 8,
+      "output_pdf_pages": [
+        352,
+        353,
+        354,
+        355
+      ],
+      "source_scan_pages": [
+        315
+      ],
+      "type": "source_text_citation_and_variant_unverified",
+      "disposition": "保留可辨拉丁术语、法源编号和引文；不可辨作者名或引文细节不订正。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P356-363-CROSS-SECTION-ORDER",
+      "volume": 8,
+      "output_pdf_pages": [
+        356,
+        357,
+        358,
+        359,
+        360,
+        361,
+        362,
+        363
+      ],
+      "source_scan_pages": [
+        316,
+        317
+      ],
+      "type": "source_text_cross_section_order",
+      "disposition": "严格依现有PDF页序分段翻译，未跨页重排或合并段落。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-SCAN-316-317-BLANK-MAPPED-TEXT",
+      "volume": 8,
+      "output_pdf_pages": [
+        356,
+        357,
+        358,
+        359,
+        360,
+        361,
+        362,
+        363
+      ],
+      "source_scan_pages": [
+        316,
+        317
+      ],
+      "type": "mapped_source_scan_pages_blank",
+      "disposition": "依据既有文字层逐页翻译，保留混合章节的输出页锚，法源依可辨文字照录；不运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P359-361-PROPER-NAMES-AND-LEX-CITATIONS",
+      "volume": 8,
+      "output_pdf_pages": [
+        359,
+        361
+      ],
+      "source_scan_pages": [
+        316,
+        317
+      ],
+      "type": "source_text_name_and_citation_corruption",
+      "disposition": "保留文字层可读形式，不推定人名正字。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P363-LATIN-DOMICILE-QUOTATIONS",
+      "volume": 8,
+      "output_pdf_page": 363,
+      "source_scan_pages": [
+        317
+      ],
+      "type": "source_text_latin_citation_corruption",
+      "disposition": "保留可辨拉丁文并附译意；不可辨之处照录残缺状态，列入未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P364-371-CROSS-SECTION-ORDER",
+      "volume": 8,
+      "output_pdf_pages": [
+        364,
+        365,
+        366,
+        367,
+        368,
+        369,
+        370,
+        371
+      ],
+      "source_scan_pages": [
+        318,
+        319
+      ],
+      "type": "source_text_cross_section_order",
+      "disposition": "依文字PDF页序翻译各片段，不跨页重排。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-SCAN-318-319-BLANK-MAPPED-TEXT",
+      "volume": 8,
+      "output_pdf_pages": [
+        364,
+        365,
+        366,
+        367,
+        368,
+        369,
+        370,
+        371
+      ],
+      "source_scan_pages": [
+        318,
+        319
+      ],
+      "type": "mapped_source_scan_pages_blank",
+      "disposition": "依据已有文字层逐页翻译；保留法源、段落位置和错序，不运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P366-371-ROMAN-SOURCES-AND-NAME-CORRUPTION",
+      "volume": 8,
+      "output_pdf_pages": [
+        366,
+        368,
+        371
+      ],
+      "source_scan_pages": [
+        318,
+        319
+      ],
+      "type": "source_text_citation_name_corruption",
+      "disposition": "保留可辨引文格式和名称片段，不凭熟悉度订正。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P372-373-ORIGO-AND-LATIN-FRAGMENT",
+      "volume": 8,
+      "output_pdf_pages": [
+        372,
+        373
+      ],
+      "source_scan_pages": [
+        319
+      ],
+      "type": "source_text_latin_citation_fragment",
+      "disposition": "保留可辨拉丁文字并附译意，未补足引文。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-SCAN-319-321-BLANK-MAPPED-TEXT",
+      "volume": 8,
+      "output_pdf_pages": [
+        372,
+        373,
+        374,
+        375,
+        376,
+        377,
+        378,
+        379
+      ],
+      "source_scan_pages": [
+        319,
+        320,
+        321
+      ],
+      "type": "mapped_source_scan_pages_blank",
+      "disposition": "逐页依据现有文字层翻译，保留法源编号、拉丁原文和页锚；错序问题登记未决。未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P374-379-CROSS-SECTION-ORDER",
+      "volume": 8,
+      "output_pdf_pages": [
+        374,
+        375,
+        376,
+        377,
+        378,
+        379
+      ],
+      "source_scan_pages": [
+        320,
+        321
+      ],
+      "type": "source_text_cross_section_order",
+      "disposition": "按输出PDF页顺序翻译；跨章节文字不重排。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P375-BIBLIOGRAPHY-AUTHOR-OCR-FRAGMENTS",
+      "volume": 8,
+      "output_pdf_page": 375,
+      "source_scan_pages": [
+        320
+      ],
+      "type": "source_text_proper_name_corruption",
+      "disposition": "保留原文字层读法并标注未核；不改成推测的作者姓名。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P376-CITY-BURDEN-CITATION-STRINGS",
+      "volume": 8,
+      "output_pdf_page": 376,
+      "source_scan_pages": [
+        320
+      ],
+      "type": "source_text_citation_sequence_corruption",
+      "disposition": "保留文字层引文残串而不猜测法源号。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P380-387-CROSS-SECTION-ORDER",
+      "volume": 8,
+      "output_pdf_pages": [
+        380,
+        381,
+        382,
+        383,
+        384,
+        385,
+        386,
+        387
+      ],
+      "source_scan_pages": [
+        321,
+        322
+      ],
+      "type": "source_text_cross_section_order",
+      "disposition": "按输出页序翻译，不跨页重新安排这些文字流。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P380-387-LEX-CITATIONS-AND-LATIN-FRAGMENTS",
+      "volume": 8,
+      "output_pdf_pages": [
+        380,
+        382,
+        384,
+        385,
+        386,
+        387
+      ],
+      "source_scan_pages": [
+        321,
+        322
+      ],
+      "type": "source_text_citation_and_latin_corruption",
+      "disposition": "保留可辨的拉丁文字和原编号残串，不推补作者名或法源。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-SCAN-321-322-BLANK-MAPPED-TEXT",
+      "volume": 8,
+      "output_pdf_pages": [
+        380,
+        381,
+        382,
+        383,
+        384,
+        385,
+        386,
+        387
+      ],
+      "source_scan_pages": [
+        321,
+        322
+      ],
+      "type": "mapped_source_scan_pages_blank",
+      "disposition": "按既有文字层逐页翻译；法源编号、断句和章节次序依文本保留，未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P388-395-CROSS-SECTION-AND-CITATION-ORDER",
+      "volume": 8,
+      "output_pdf_pages": [
+        388,
+        389,
+        390,
+        391,
+        392,
+        393,
+        394,
+        395
+      ],
+      "source_scan_pages": [
+        323,
+        324
+      ],
+      "type": "source_text_cross_section_order_and_corruption",
+      "disposition": "按PDF输出页顺序逐页翻译；原始拉丁法源尽量照录，疑难处作残缺标记，不猜补或重排。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-SCAN-323-324-BLANK-MAPPED-TEXT",
+      "volume": 8,
+      "output_pdf_pages": [
+        388,
+        389,
+        390,
+        391,
+        392,
+        393,
+        394,
+        395
+      ],
+      "source_scan_pages": [
+        323,
+        324
+      ],
+      "type": "mapped_source_scan_pages_blank",
+      "disposition": "逐页依据既有文字层翻译；保存法源、章节和输出页定位，不运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P395-AUSSCHLIESSENDER-READING",
+      "volume": 8,
+      "output_pdf_page": 395,
+      "source_scan_pages": [
+        324
+      ],
+      "type": "source_text_wordform_uncertainty",
+      "disposition": "译文暂依上下文处理为具有排他适用性，保留原词形疑点，不回改或补写德文。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P396-403-CROSS-SECTION-ORDER",
+      "volume": 8,
+      "output_pdf_pages": [
+        396,
+        397,
+        398,
+        399,
+        400,
+        401,
+        402,
+        403
+      ],
+      "source_scan_pages": [
+        325,
+        326
+      ],
+      "type": "source_text_cross_section_order",
+      "disposition": "按输出PDF页顺序翻译，不跨页重排交错片段。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-SCAN-325-326-BLANK-MAPPED-TEXT",
+      "volume": 8,
+      "output_pdf_pages": [
+        396,
+        397,
+        398,
+        399,
+        400,
+        401,
+        402,
+        403
+      ],
+      "source_scan_pages": [
+        325,
+        326
+      ],
+      "type": "mapped_source_scan_pages_blank",
+      "disposition": "依据既有文字层逐页翻译，保留原页锚点和可辨法源，不运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P398-399-FRENCH-LAW-FRAGMENTS",
+      "volume": 8,
+      "output_pdf_pages": [
+        398,
+        399
+      ],
+      "source_scan_pages": [
+        325
+      ],
+      "type": "source_text_citation_and_sentence_corruption",
+      "disposition": "翻译可辨论旨；损坏句尾、交错文献注与作者名照录疑点，不作补全。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P402-403-MODERN-ORIGO-DEFINITION-AND-NOTES",
+      "volume": 8,
+      "output_pdf_pages": [
+        402,
+        403
+      ],
+      "source_scan_pages": [
+        326
+      ],
+      "type": "source_text_ocr_corruption",
+      "disposition": "仅据可辨句意翻译现代origo与罗马origo之区分；不猜作者姓名或缺失内容。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P404-406-INHERITANCE-FORUM-CITATIONS",
+      "volume": 8,
+      "output_pdf_pages": [
+        404,
+        405,
+        406
+      ],
+      "source_scan_pages": [
+        327
+      ],
+      "type": "source_text_citation_name_and_sentence_corruption",
+      "disposition": "保留不确定连接点，按可辨引文翻译，其余标为残损，不据现代法源猜补。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P404-411-CROSS-SECTION-ORDER",
+      "volume": 8,
+      "output_pdf_pages": [
+        404,
+        405,
+        406,
+        407,
+        408,
+        409,
+        410,
+        411
+      ],
+      "source_scan_pages": [
+        327,
+        328
+      ],
+      "type": "source_text_cross_section_order",
+      "disposition": "依文字PDF页序翻译，不重排段落。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-SCAN-327-328-BLANK-MAPPED-TEXT",
+      "volume": 8,
+      "output_pdf_pages": [
+        404,
+        405,
+        406,
+        407,
+        408,
+        409,
+        410,
+        411
+      ],
+      "source_scan_pages": [
+        327,
+        328
+      ],
+      "type": "mapped_source_scan_pages_blank",
+      "disposition": "按已有文字层逐页翻译并保留输出页锚点，不运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P409-411-VOLUNTARY-SUBMISSION-CITATION-ORDER",
+      "volume": 8,
+      "output_pdf_pages": [
+        409,
+        410,
+        411
+      ],
+      "source_scan_pages": [
+        328
+      ],
+      "type": "source_text_footnote_interleaving",
+      "disposition": "译文分标正文、异文和脚注片段；作者书目以文字层读法保留。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P412-413-TESTAMENT-CAPACITY-REFERENCES",
+      "volume": 8,
+      "output_pdf_pages": [
+        412,
+        413
+      ],
+      "source_scan_pages": [
+        329
+      ],
+      "type": "source_text_subject_and_citation_corruption",
+      "disposition": "保留住所主体疑点，不补名；引用按可辨编号翻译。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P412-419-CROSS-SECTION-ORDER",
+      "volume": 8,
+      "output_pdf_pages": [
+        412,
+        413,
+        414,
+        415,
+        416,
+        417,
+        418,
+        419
+      ],
+      "source_scan_pages": [
+        329,
+        330
+      ],
+      "type": "source_text_cross_section_order",
+      "disposition": "按文字PDF页序逐页翻译，不重排交错章节。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-SCAN-329-330-BLANK-MAPPED-TEXT",
+      "volume": 8,
+      "output_pdf_pages": [
+        412,
+        413,
+        414,
+        415,
+        416,
+        417,
+        418,
+        419
+      ],
+      "source_scan_pages": [
+        329,
+        330
+      ],
+      "type": "mapped_source_scan_pages_blank",
+      "disposition": "按既有文字层翻译并记录输出页与源页映射；未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P417-419-STATUTA-THEORY-AND-NOTES",
+      "volume": 8,
+      "output_pdf_pages": [
+        417,
+        418,
+        419
+      ],
+      "source_scan_pages": [
+        330
+      ],
+      "type": "source_text_classification_and_citation_fragment",
+      "disposition": "照录可辨分类和论旨，破损引文不补全。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P420-423-PERSONAL-CAPACITY-AND-PRINCIPLE-CITATIONS",
+      "volume": 8,
+      "output_pdf_pages": [
+        420,
+        421,
+        422,
+        423
+      ],
+      "source_scan_pages": [
+        331
+      ],
+      "type": "source_text_sentence_and_citation_corruption",
+      "disposition": "翻译可辨论旨，保留主体或引文缺口，不猜补作者与页码。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P420-427-CROSS-SECTION-ORDER",
+      "volume": 8,
+      "output_pdf_pages": [
+        420,
+        421,
+        422,
+        423,
+        424,
+        425,
+        426,
+        427
+      ],
+      "source_scan_pages": [
+        331,
+        332
+      ],
+      "type": "source_text_cross_section_order",
+      "disposition": "依文字PDF页序翻译，不跨页重排。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-SCAN-331-332-BLANK-MAPPED-TEXT",
+      "volume": 8,
+      "output_pdf_pages": [
+        420,
+        421,
+        422,
+        423,
+        424,
+        425,
+        426,
+        427
+      ],
+      "source_scan_pages": [
+        331,
+        332
+      ],
+      "type": "mapped_source_scan_pages_blank",
+      "disposition": "按现有文字层逐页翻译并保留页映射；未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P424-427-TESTAMENT-AND-CODE-REFERENCES",
+      "volume": 8,
+      "output_pdf_pages": [
+        424,
+        425,
+        426,
+        427
+      ],
+      "source_scan_pages": [
+        332
+      ],
+      "type": "source_text_footnote_interleaving_and_reference_corruption",
+      "disposition": "可辨规则和法源依文字层保留；难辨句尾及页码留作未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P428-431-BONA-VACANTIA-AND-STATUS-CITATIONS",
+      "volume": 8,
+      "output_pdf_pages": [
+        428,
+        429,
+        430,
+        431
+      ],
+      "source_scan_pages": [
+        333
+      ],
+      "type": "source_text_citation_and_column_corruption",
+      "disposition": "翻译可辨法律论旨；缺失分类及作者、引文保持未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P428-435-CROSS-SECTION-ORDER",
+      "volume": 8,
+      "output_pdf_pages": [
+        428,
+        429,
+        430,
+        431,
+        432,
+        433,
+        434,
+        435
+      ],
+      "source_scan_pages": [
+        333,
+        334
+      ],
+      "type": "source_text_cross_section_order",
+      "disposition": "按输出PDF页序保留各片段，不重排。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-SCAN-333-334-BLANK-MAPPED-TEXT",
+      "volume": 8,
+      "output_pdf_pages": [
+        428,
+        429,
+        430,
+        431,
+        432,
+        433,
+        434,
+        435
+      ],
+      "source_scan_pages": [
+        333,
+        334
+      ],
+      "type": "mapped_source_scan_pages_blank",
+      "disposition": "按文字层逐页翻译并记录源页，不运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P432-435-PRUSSIAN-CODE-AND-SENTENCE-CORRUPTION",
+      "volume": 8,
+      "output_pdf_pages": [
+        432,
+        433,
+        434,
+        435
+      ],
+      "source_scan_pages": [
+        334
+      ],
+      "type": "source_text_citation_and_sentence_corruption",
+      "disposition": "保留可辨规则和文献，残句不猜补。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P436-439-PRUSSIAN-LAW-AND-VELLEIANUM-READINGS",
+      "volume": 8,
+      "output_pdf_pages": [
+        436,
+        437,
+        438,
+        439
+      ],
+      "source_scan_pages": [
+        335
+      ],
+      "type": "source_text_citation_and_word_corruption",
+      "disposition": "按可辨上下文翻译，不能确认的编号与引文保留疑点。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P436-443-CROSS-SECTION-ORDER",
+      "volume": 8,
+      "output_pdf_pages": [
+        436,
+        437,
+        438,
+        439,
+        440,
+        441,
+        442,
+        443
+      ],
+      "source_scan_pages": [
+        335,
+        336
+      ],
+      "type": "source_text_cross_section_order",
+      "disposition": "依输出PDF页序分别翻译，不重排。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-SCAN-335-336-BLANK-MAPPED-TEXT",
+      "volume": 8,
+      "output_pdf_pages": [
+        436,
+        437,
+        438,
+        439,
+        440,
+        441,
+        442,
+        443
+      ],
+      "source_scan_pages": [
+        335,
+        336
+      ],
+      "type": "mapped_source_scan_pages_blank",
+      "disposition": "依据现有文字层逐页翻译，保留映射；未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P440-443-NEGOTIABLE-INSTRUMENT-CITATIONS",
+      "volume": 8,
+      "output_pdf_pages": [
+        440,
+        441,
+        442,
+        443
+      ],
+      "source_scan_pages": [
+        336
+      ],
+      "type": "source_text_code_citation_and_footnote_corruption",
+      "disposition": "保留可辨引证和实体论旨；条号、作者及句尾不据推测修正。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P444-447-ALR-AND-NEGOTIABLE-INSTRUMENT-CITATIONS",
+      "volume": 8,
+      "output_pdf_pages": [
+        444,
+        445,
+        446,
+        447
+      ],
+      "source_scan_pages": [
+        337
+      ],
+      "type": "source_text_citation_and_wordform_corruption",
+      "disposition": "仅翻译可辨规则，异常引文和连接处保留疑问。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P444-451-CROSS-SECTION-ORDER",
+      "volume": 8,
+      "output_pdf_pages": [
+        444,
+        445,
+        446,
+        447,
+        448,
+        449,
+        450,
+        451
+      ],
+      "source_scan_pages": [
+        337,
+        338
+      ],
+      "type": "source_text_cross_section_order",
+      "disposition": "依输出页序翻译并登记交错关系，不重排。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-SCAN-337-338-BLANK-MAPPED-TEXT",
+      "volume": 8,
+      "output_pdf_pages": [
+        444,
+        445,
+        446,
+        447,
+        448,
+        449,
+        450,
+        451
+      ],
+      "source_scan_pages": [
+        337,
+        338
+      ],
+      "type": "mapped_source_scan_pages_blank",
+      "disposition": "按现有文字层逐页翻译，保留页映射，不运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P448-451-JOACHIMICA-AND-EXCEPTIONS",
+      "volume": 8,
+      "output_pdf_pages": [
+        448,
+        449,
+        450,
+        451
+      ],
+      "source_scan_pages": [
+        338
+      ],
+      "type": "source_text_citation_and_sentence_fragments",
+      "disposition": "保留法令称谓与可辨论旨，不补写缺失页文。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P452-456-ALR-AND-MARRIAGE-INHERITANCE",
+      "volume": 8,
+      "output_pdf_pages": [
+        452,
+        456
+      ],
+      "source_scan_pages": [
+        339,
+        340
+      ],
+      "type": "source_text_statute_and_cross-reference_corruption",
+      "disposition": "译可辨实体规则，脚注号保留文字层读法；损坏部分未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P452-459-CROSS-SECTION-ORDER",
+      "volume": 8,
+      "output_pdf_pages": [
+        452,
+        453,
+        454,
+        455,
+        456,
+        457,
+        458,
+        459
+      ],
+      "source_scan_pages": [
+        339,
+        340
+      ],
+      "type": "source_text_cross_section_order",
+      "disposition": "依PDF输出页序分别翻译，不跨页重排。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-SCAN-339-340-BLANK-MAPPED-TEXT",
+      "volume": 8,
+      "output_pdf_pages": [
+        452,
+        453,
+        454,
+        455,
+        456,
+        457,
+        458,
+        459
+      ],
+      "source_scan_pages": [
+        339,
+        340
+      ],
+      "type": "mapped_source_scan_pages_blank",
+      "disposition": "按现有文字层逐页翻译并保留映射，不运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P453-455-MINORITY-STATUS-NOTES",
+      "volume": 8,
+      "output_pdf_pages": [
+        453,
+        454,
+        455
+      ],
+      "source_scan_pages": [
+        339
+      ],
+      "type": "source_text_footnote_author_corruption",
+      "disposition": "保留未成年／时效规则论旨；作者名和不确定著录留疑。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P460-462-PRUSSIAN-SUBSTITUTION-AND-BIBLIOGRAPHY",
+      "volume": 8,
+      "output_pdf_pages": [
+        460,
+        461,
+        462
+      ],
+      "source_scan_pages": [
+        341
+      ],
+      "type": "source_text_citation_interleaving",
+      "disposition": "保留可辨规则及书目片段，分界和缺失词未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P460-467-CROSS-SECTION-ORDER",
+      "volume": 8,
+      "output_pdf_pages": [
+        460,
+        461,
+        462,
+        463,
+        464,
+        465,
+        466,
+        467
+      ],
+      "source_scan_pages": [
+        341,
+        342
+      ],
+      "type": "source_text_cross_section_order",
+      "disposition": "按输出页顺序逐页翻译，不重排。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-SCAN-341-342-BLANK-MAPPED-TEXT",
+      "volume": 8,
+      "output_pdf_pages": [
+        460,
+        461,
+        462,
+        463,
+        464,
+        465,
+        466,
+        467
+      ],
+      "source_scan_pages": [
+        341,
+        342
+      ],
+      "type": "mapped_source_scan_pages_blank",
+      "disposition": "依文字层逐页翻译、保持页锚点，不运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P463-467-MOVABLES-AND-LEX-SITUS-CITATIONS",
+      "volume": 8,
+      "output_pdf_pages": [
+        463,
+        464,
+        465,
+        466,
+        467
+      ],
+      "source_scan_pages": [
+        341,
+        342
+      ],
+      "type": "source_text_sentence_and_citation_corruption",
+      "disposition": "只翻译可辨的空间连接点论证，法源与缺句不猜补。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P468-472-MOVABLES-MARRIAGE-CROSSSTREAM",
+      "volume": 8,
+      "output_pdf_pages": [
+        468,
+        469,
+        470,
+        471,
+        472
+      ],
+      "source_scan_pages": [
+        342,
+        343
+      ],
+      "type": "blank_scan_and_cross_stream_text_corruption",
+      "disposition": "分别译出可辨的两条文本流；缺词、书目和脚注顺序不猜补，保持未决；未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P473-MARRIAGE_IMPEDIMENTS_CITATIONS",
+      "volume": 8,
+      "output_pdf_pages": [
+        473
+      ],
+      "source_scan_pages": [
+        344
+      ],
+      "type": "blank_scan_and_citation_corruption",
+      "disposition": "翻译可辨正文；脚注受损数字及作者名保留为未决，不作推定校正；未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P474-475-REALRIGHTS-PIGNUS-CORRUPTION",
+      "volume": 8,
+      "output_pdf_pages": [
+        474,
+        475
+      ],
+      "source_scan_pages": [
+        344
+      ],
+      "type": "blank_scan_and_sentence_boundary_corruption",
+      "disposition": "只翻译可辨的租赁使用物权与默示质权冲突规则；损坏句、注释顺序和末句保持未决；未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P476-UNREADABLE-TEXT-AND-BLANK-SCAN",
+      "volume": 8,
+      "output_pdf_pages": [
+        476
+      ],
+      "source_scan_pages": [
+        344
+      ],
+      "type": "unreadable_source_text_blank_scan",
+      "disposition": "记录为空白扫描对应的不可译页；不猜补、不运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P477-481-MARITAL_PROPERTY_LAW_CITATIONS",
+      "volume": 8,
+      "output_pdf_pages": [
+        477,
+        478,
+        481
+      ],
+      "source_scan_pages": [
+        345,
+        346
+      ],
+      "type": "blank_scan_cross_stream_citation_and_sentence_corruption",
+      "disposition": "依可辨文本分流翻译；书目、断句边界不推定，未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P478-483-PLEDGE_POSSESSION_OBLIGATION_STREAMS",
+      "volume": 8,
+      "output_pdf_pages": [
+        478,
+        479,
+        480,
+        481,
+        482,
+        483
+      ],
+      "source_scan_pages": [
+        345,
+        346
+      ],
+      "type": "blank_scan_interleaved_legal_text_and_fragmentary_citations",
+      "disposition": "只译清楚可辨的法律论证；损坏术语和未完句保留未决，不运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P484-489-BLANK-SCANS-MISSING_TEXT",
+      "volume": 8,
+      "output_pdf_pages": [
+        484,
+        489
+      ],
+      "source_scan_pages": [
+        346,
+        347
+      ],
+      "type": "blank_scan_and_missing_or_fragmentary_text",
+      "disposition": "p484只译可辨片段并留未决；p489登记为无正文页。不猜补、不运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P485-490-MARITAL_PROPERTY_DOMICILE_CITATIONS",
+      "volume": 8,
+      "output_pdf_pages": [
+        485,
+        486,
+        490
+      ],
+      "source_scan_pages": [
+        347,
+        348
+      ],
+      "type": "blank_scan_interleaved_marital_property_and_citations",
+      "disposition": "译出可辨的婚姻财产制论证；残缺引用不校补，丈夫住所变更争议保留未完处。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P486-491-OBLIGATION_FORUM_STREAM_CORRUPTION",
+      "volume": 8,
+      "output_pdf_pages": [
+        486,
+        487,
+        488,
+        491
+      ],
+      "source_scan_pages": [
+        347,
+        348
+      ],
+      "type": "blank_scan_cross_stream_forum_text_corruption",
+      "disposition": "分流翻译法律论证，损坏的问题措辞、脚注和未完句列为未决；不运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P492-493-ACTIONS_BOUND_TO_SITUS",
+      "volume": 8,
+      "output_pdf_pages": [
+        492,
+        493
+      ],
+      "source_scan_pages": [
+        348
+      ],
+      "type": "blank_scan_fragmentary_performance_place_text",
+      "disposition": "翻译可辨的不动产行为与履行地论证；脚注次序及句尾保持未决，不运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P494-498-MARITAL_REGIME_AND_FICTIVE_CONTRACT",
+      "volume": 8,
+      "output_pdf_pages": [
+        494,
+        495,
+        498,
+        499
+      ],
+      "source_scan_pages": [
+        349,
+        350
+      ],
+      "type": "blank_scan_cross_stream_marital_property_text",
+      "disposition": "保留可辨论证并分开注释流；不能确认的连接语和注释位置列未决，不运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P495-499-OBLIGATION_FORUM_AND_MANAGEMENT",
+      "volume": 8,
+      "output_pdf_pages": [
+        495,
+        496,
+        497,
+        499
+      ],
+      "source_scan_pages": [
+        349,
+        350
+      ],
+      "type": "blank_scan_interleaved_forum_argument_and_citations",
+      "disposition": "译出清晰法律论证；断句与页脚引文不作复原，保留未决且不运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P500-502-TRANSIENT_STAYS_AND_FORUM",
+      "volume": 8,
+      "output_pdf_pages": [
+        500,
+        501,
+        502
+      ],
+      "source_scan_pages": [
+        350
+      ],
+      "type": "blank_scan_interleaved_case_and_forum_text",
+      "disposition": "译出可辨规则和案例；案情细节、脚注页码不确定处留未决，不运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P503-507-MARITAL_REGIME_AND_MANDATORY_LAW",
+      "volume": 8,
+      "output_pdf_pages": [
+        503,
+        504,
+        507
+      ],
+      "source_scan_pages": [
+        351,
+        352
+      ],
+      "type": "blank_scan_cross_stream_marital_property_text",
+      "disposition": "分流翻译可辨婚姻财产制论证和强制法例外；具体损坏字词不补。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P504-506-DELIVERY_AND_STATUTORY_PERFORMANCE",
+      "volume": 8,
+      "output_pdf_pages": [
+        504,
+        505,
+        506
+      ],
+      "source_scan_pages": [
+        351
+      ],
+      "type": "blank_scan_fragmentary_forum_and_delivery_text",
+      "disposition": "翻译可辨理论，截断处保留未决，不运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P508-510-SPECIFIC_MOVABLES_AND_HEIR_FORUM",
+      "volume": 8,
+      "output_pdf_pages": [
+        508,
+        509,
+        510
+      ],
+      "source_scan_pages": [
+        352
+      ],
+      "type": "blank_scan_fragmentary_roman_rules_and_case",
+      "disposition": "译出可辨原则及法源，未辨诉型、案情和引文顺序保持未决；不运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P511-514-CONTRACT_FORMATION_LETTERS_AND_QUASI_CONTRACT",
+      "volume": 8,
+      "output_pdf_pages": [
+        511,
+        512,
+        513,
+        514
+      ],
+      "source_scan_pages": [
+        353
+      ],
+      "type": "blank_scan_interleaved_contract_and_single_act_text",
+      "disposition": "分别翻译可辨内容；契约相关第三问、脚注及p514残片列未决，不运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P511-515-SPOUSAL_GIFTS_AND_INTESTACY",
+      "volume": 8,
+      "output_pdf_pages": [
+        511,
+        515
+      ],
+      "source_scan_pages": [
+        353,
+        354
+      ],
+      "type": "blank_scan_corrupted_family_law_terms",
+      "disposition": "依相邻论证译出可辨规则；损坏词语、家法法源及续句不补。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P516-518-DELICT_FORUM_AND_SPECIAL_ACTION",
+      "volume": 8,
+      "output_pdf_pages": [
+        516,
+        517,
+        518
+      ],
+      "source_scan_pages": [
+        354
+      ],
+      "type": "blank_scan_roman_remedies_and_forum_citations",
+      "disposition": "翻译可辨规则及引文主旨，诉权具体边界和争议句保留未决，不运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P519-523-DIVORCE_PATERNAL_POWER",
+      "volume": 8,
+      "output_pdf_pages": [
+        519,
+        520,
+        521,
+        522,
+        523
+      ],
+      "source_scan_pages": [
+        355,
+        356
+      ],
+      "type": "blank_scan_family_law_and_conflict_rules",
+      "disposition": "依上下文翻译可辨部分；父权触发事实、书目及边界不猜补。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P524-526-OBLIGATION_LOCAL_LAW_DOCTRINE",
+      "volume": 8,
+      "output_pdf_pages": [
+        524,
+        525,
+        526
+      ],
+      "source_scan_pages": [
+        356
+      ],
+      "type": "blank_scan_fragmentary_sources_and_argument",
+      "disposition": "翻译可辨论证；未完整提取的§号、法源与句尾列未决，不运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P527-529-PATERNITY_AND_EVICTION_CUSTOM",
+      "volume": 8,
+      "output_pdf_pages": [
+        527,
+        528,
+        529
+      ],
+      "source_scan_pages": [
+        357
+      ],
+      "type": "blank_scan_interleaved_legitimation_and_local_custom",
+      "disposition": "分别翻译可辨制度与当地习惯；父权触发事实、脚注和跨流连接不推定。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P529-531-CONTRACT_LAW_EXCHANGE_GUARDIANSHIP",
+      "volume": 8,
+      "output_pdf_pages": [
+        529,
+        530,
+        531
+      ],
+      "source_scan_pages": [
+        357,
+        358
+      ],
+      "type": "blank_scan_cross_stream_contract_and_guardianship_text",
+      "disposition": "翻译明确规则；汇票法条续文、作者名与监护段落尾句列未决，不运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P532-533-JUDGMENT_RECOGNITION_AND_TREATY",
+      "volume": 8,
+      "output_pdf_pages": [
+        532,
+        533
+      ],
+      "source_scan_pages": [
+        358
+      ],
+      "type": "blank_scan_fragmentary_treaty_and_res_judicata_text",
+      "disposition": "翻译可辨的承认/效力区分；条约措辞、注释与正文边界保持未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P533-538-PERSONAL_CAPACITY_AND_CONTRACT_INTERPRETATION",
+      "volume": 8,
+      "output_pdf_pages": [
+        533,
+        534,
+        536,
+        537,
+        538
+      ],
+      "source_scan_pages": [
+        358,
+        359
+      ],
+      "type": "blank_scan_text_stream_and_source_corruption",
+      "disposition": "保留能辨识的冲突法判断与契约解释原则；法源和缺词不推定。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P535-539-GUARDIANSHIP_AND_FOREIGN_IMMOVABLES",
+      "volume": 8,
+      "output_pdf_pages": [
+        535,
+        539
+      ],
+      "source_scan_pages": [
+        359,
+        360
+      ],
+      "type": "blank_scan_cross_border_guardianship_details",
+      "disposition": "翻译一般规则与可辨的罗马法、普鲁士法例外；不确定条约条款列未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P540-542-LIMITATION_AND_DATION_TEXT_STREAM",
+      "volume": 8,
+      "output_pdf_pages": [
+        540,
+        541,
+        542
+      ],
+      "source_scan_pages": [
+        360
+      ],
+      "type": "blank_scan_interleaved_limitation_and_obligation_text",
+      "disposition": "依现有文字层翻译可辨的实体规则；Dation及不确定作者名保留原拼写并标注，脚注续接关系不猜定；未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P543-547-GUARDIANSHIP_CROSSPAGE_AND_ADMINISTRATION",
+      "volume": 8,
+      "output_pdf_pages": [
+        543,
+        547
+      ],
+      "source_scan_pages": [
+        361,
+        362
+      ],
+      "type": "blank_scan_guardianship_case_crosspage_and_lex_rei_sitae",
+      "disposition": "依文字层翻译个案、监护迁移和境外不动产管理论证；P. Vokr照录，不据常见引文猜改；跨页句明确标示。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P544-546-MANDATORY_LAW_AND_DELICT_EXCEPTION",
+      "volume": 8,
+      "output_pdf_pages": [
+        544,
+        545,
+        546
+      ],
+      "source_scan_pages": [
+        361
+      ],
+      "type": "blank_scan_strict_positive_law_and_footnote_order",
+      "disposition": "翻译清楚部分；残损句以方括号标出，恢复原状、占有令与判例脚注按可读文字转述，不补造法源或句尾。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P548-550-TORT_AND_BANKRUPTCY_OPENING",
+      "volume": 8,
+      "output_pdf_pages": [
+        548,
+        549,
+        550
+      ],
+      "source_scan_pages": [
+        362
+      ],
+      "type": "blank_scan_interleaved_delict_and_bankruptcy",
+      "disposition": "按可辨文字翻译强制法规则、破产定义及程序目的；脚注和页尾残句保留续页标记，不运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P551-GUARDIANSHIP_PERSONAL_STATUTE_AND_CASE",
+      "volume": 8,
+      "output_pdf_pages": [
+        551,
+        557
+      ],
+      "source_scan_pages": [
+        363,
+        364
+      ],
+      "type": "blank_scan_guardianship_crossstream",
+      "disposition": "依可辨论证翻译为人法/物法区分，并在第557页接续可见案例事实；扫描为空白，案情仍有未核字词。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P552-555-BANKRUPTCY_CROSSBORDER_TOC_AND_NOISE",
+      "volume": 8,
+      "output_pdf_pages": [
+        552,
+        553,
+        554,
+        555
+      ],
+      "source_scan_pages": [
+        363
+      ],
+      "type": "blank_scan_mixed_bankruptcy_toc_stamp_and_body",
+      "disposition": "翻译清楚的破产分类与司法协助规则；目录可辨节号和页码单列转录，藏书标记作为非正文登记，作者名不猜改。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P556-557-CONFLICT_METHOD_AND_GUARDIANSHIP_CASE",
+      "volume": 8,
+      "output_pdf_pages": [
+        556,
+        557
+      ],
+      "source_scan_pages": [
+        363,
+        364
+      ],
+      "type": "blank_scan_methodological_and_guardianship_crossflow",
+      "disposition": "分别翻译方法论、监护案例与条约内容；不把互异文字流拼成连续正文，法条脚注残片保留未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P558-559-MORTGAGE_PRIORITY_AND_BIBLIOGRAPHY",
+      "volume": 8,
+      "output_pdf_pages": [
+        558,
+        559
+      ],
+      "source_scan_pages": [
+        364
+      ],
+      "type": "blank_scan_mortgage_procedure_and_mixed_bibliography",
+      "disposition": "翻译可辨的顺位规则与新法内容，保留未识作者名、注号和混合书目页码，不按熟悉程度改写。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P560-563-OVERVIEW_AND_FOREIGNER_EQUALITY",
+      "volume": 8,
+      "output_pdf_pages": [
+        560,
+        561,
+        562,
+        563
+      ],
+      "source_scan_pages": [
+        364
+      ],
+      "type": "blank_scan_interleaved_sections_345_348_and_bankruptcy",
+      "disposition": "按可辨章节标记分别译述；外文作者名与实定法引注照文字层保留，断裂处列未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P564-565-COMITAS_AND_LEGISLATIVE_JUDICIAL_NOTE",
+      "volume": 8,
+      "output_pdf_pages": [
+        564,
+        565
+      ],
+      "source_scan_pages": [
+        364
+      ],
+      "type": "blank_scan_comity_citations_and_fragmentary_note",
+      "disposition": "翻译可辨的comitas理论与作者论点；拉丁文意译并保留作者原拼写，注释归属未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P566-567-GUARDIAN_DUTIES_AND_SUCCESSION_OPENING",
+      "volume": 8,
+      "output_pdf_pages": [
+        566,
+        567
+      ],
+      "source_scan_pages": [
+        365
+      ],
+      "type": "blank_scan_guardianship_and_inheritance_crossflow",
+      "disposition": "分别翻译可辨的监护法和继承法段落；不重排成连续的单一主题，残缺续句不猜补。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P568-571-ABSOLUTE_LAWS_AND_INHERITANCE_MIXED_STREAMS",
+      "volume": 8,
+      "output_pdf_pages": [
+        568,
+        569,
+        570,
+        571
+      ],
+      "source_scan_pages": [
+        365
+      ],
+      "type": "blank_scan_interleaved_sections_and_citizenship_fragment",
+      "disposition": "按可辨章节分别翻译，并将城市公民身份段落标为异序文字流；书目拼写及断裂句保留未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P572-573-ORIGO_MUNICIPAL_TERMS_AND_SECTION_NUMBERS",
+      "volume": 8,
+      "output_pdf_pages": [
+        572,
+        573
+      ],
+      "source_scan_pages": [
+        365
+      ],
+      "type": "blank_scan_origo_citizenship_interleaved_sections",
+      "disposition": "按文字层可辨术语翻译；章节号冲突及作者/法源字形不据常识校正。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P574-575-LOCUS_FORMS_AND_TERRITORIAL_INHERITANCE",
+      "volume": 8,
+      "output_pdf_pages": [
+        574,
+        575
+      ],
+      "source_scan_pages": [
+        366
+      ],
+      "type": "blank_scan_crossflow_form_and_inheritance_law",
+      "disposition": "分别标识行为形式规则与继承准据法观点；未将两流强行拼接，缺损处保持未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P576-579-DOMICILE_AND_SUCCESSION_CROSSSTREAM",
+      "volume": 8,
+      "output_pdf_pages": [
+        576,
+        577,
+        578,
+        579
+      ],
+      "source_scan_pages": [
+        366
+      ],
+      "type": "blank_scan_municipal_domicile_and_inheritance_streams",
+      "disposition": "译出可辨住所/继承规则与法源号，分块标出异序文字流；作者名和断句不猜补。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P580-582-PERSONAL_STATUTE_AND_FOREIGN_LOANS",
+      "volume": 8,
+      "output_pdf_pages": [
+        580,
+        581,
+        582
+      ],
+      "source_scan_pages": [
+        366
+      ],
+      "type": "blank_scan_personal_status_and_foreign_law_exceptions",
+      "disposition": "翻译可辨的罗马法规则与历史例证；利息法名、外国婚姻子女身份条件和作者注释保留未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P583-585-LOCUS_REGIT_AND_INHERITANCE_THEORIES",
+      "volume": 8,
+      "output_pdf_pages": [
+        583,
+        584,
+        585
+      ],
+      "source_scan_pages": [
+        367
+      ],
+      "type": "blank_scan_form_conflicts_and_succession_law",
+      "disposition": "分别翻译形式准据法和继承论证；残句不拼接，非连续罗马身份材料独立标示。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P586-587-TESTAMENT_CAPACITY_AND_PERSONAL_LAW",
+      "volume": 8,
+      "output_pdf_pages": [
+        586,
+        587
+      ],
+      "source_scan_pages": [
+        367
+      ],
+      "type": "blank_scan_roman_capacity_and_inheritance_property_exception",
+      "disposition": "依可辨文字翻译罗马法身份规则及继承物法例外；案名、土地性质和残损法源保留未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P588-591-PERSONAL_LAW_DOMICILE_AND_MODERN_ORIGO",
+      "volume": 8,
+      "output_pdf_pages": [
+        588,
+        589,
+        590,
+        591
+      ],
+      "source_scan_pages": [
+        367
+      ],
+      "type": "blank_scan_personal_law_and_origin_streams",
+      "disposition": "分别翻译属人法、住所与现代origo论证；损坏术语和引文保留文字层原状或作疑点标记，不猜补。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P592-593-LOCUS_REGIT_AND_INHERITANCE_FORUM",
+      "volume": 8,
+      "output_pdf_pages": [
+        592,
+        593
+      ],
+      "source_scan_pages": [
+        368
+      ],
+      "type": "blank_scan_form_rule_and_succession_forum",
+      "disposition": "分开翻译两项法律问题；法典条号只依可辨数字转写，残句保留未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P594-595-AUTONOMY_AND_VOLUNTARY_SUBMISSION",
+      "volume": 8,
+      "output_pdf_pages": [
+        594,
+        595
+      ],
+      "source_scan_pages": [
+        368
+      ],
+      "type": "blank_scan_choice_of_law_autonomy_concept",
+      "disposition": "依可辨论证翻译并沿用术语表中自治（Autonomie）的限制性含义；不补齐缺失行。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P596-597-INHERITANCE_CAPACITY_AND_FORUM_EXCEPTION",
+      "volume": 8,
+      "output_pdf_pages": [
+        596,
+        597
+      ],
+      "source_scan_pages": [
+        368
+      ],
+      "type": "blank_scan_heir_capacity_and_mandatory_law",
+      "disposition": "翻译可辨的住所时点与裁判地强制法例外；第3项/注释残句和作者引注保持未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P598-599-RELATIONSHIP_CENTER_AND_LEGAL_COMMUNITY",
+      "volume": 8,
+      "output_pdf_pages": [
+        598,
+        599
+      ],
+      "source_scan_pages": [
+        368
+      ],
+      "type": "blank_scan_scope_rule_and_modern_conflict_method",
+      "disposition": "翻译方法论与Thöl引文的可辨部分；文字流和脚注归属未能由扫描确认。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P600-603-FORMALITY_BONA_VACANTIA_AND_STATUS_EFFECTS",
+      "volume": 8,
+      "output_pdf_pages": [
+        600,
+        601,
+        602,
+        603
+      ],
+      "source_scan_pages": [
+        369
+      ],
+      "type": "blank_scan_locus_regit_inheritance_and_personal_effects",
+      "disposition": "分别翻译三类可辨论证；将异序主题分块，未依据空白原件推定遗失文字。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P604-605-DOMICILE_CAPACITY_AND_REAL_STATUTES",
+      "volume": 8,
+      "output_pdf_pages": [
+        604,
+        605
+      ],
+      "source_scan_pages": [
+        369
+      ],
+      "type": "blank_scan_and_fragmented_personal_capacity_connection",
+      "disposition": "翻译可辨观点和草案引文；对连接点细节与被截断句保留不确定标记，不从空白图像补字。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P606-608-BILL_CAPACITY_AND_PRUSSIAN_STATUTES",
+      "volume": 8,
+      "output_pdf_pages": [
+        606,
+        607,
+        608
+      ],
+      "source_scan_pages": [
+        369
+      ],
+      "type": "blank_scan_interleaved_notes_and_damaged_citations",
+      "disposition": "翻译可辨汇票能力论证、身份类别及营业法沿革；损坏法条号和缺失衔接不推定。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P609-611-LEX_REI_SITAE_TEXT_STREAM_MIXTURE",
+      "volume": 8,
+      "output_pdf_pages": [
+        609,
+        610,
+        611
+      ],
+      "source_scan_pages": [
+        370
+      ],
+      "type": "blank_scan_interleaved_page_streams",
+      "disposition": "分列翻译可辨的交错论证流，保留页序、来源及法源归属疑问；不把异序文字强行并入单一段落。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P612-614-PERSONAL_STATUS_EXCEPTIONS_AND_INHERITANCE",
+      "volume": 8,
+      "output_pdf_pages": [
+        612,
+        613,
+        614
+      ],
+      "source_scan_pages": [
+        370
+      ],
+      "type": "blank_scan_interleaved_sections_and_footnotes",
+      "disposition": "分列翻译可辨的§349与§378文字流；无法确定的段落归属、缺字和脚注保留未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P614-617-MOVABLES_DOCTRINE_AND_SITUS",
+      "volume": 8,
+      "output_pdf_pages": [
+        614,
+        615,
+        616,
+        617
+      ],
+      "source_scan_pages": [
+        370
+      ],
+      "type": "blank_scan_mixed_printed_pages_and_citations",
+      "disposition": "翻译可辨学说与在途动产论证；作者引文不据熟悉程度补全，停驻点标准继续列未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P618-619-LOCUS_REGIT_ACTUM_AND_MARRIAGE",
+      "volume": 8,
+      "output_pdf_pages": [
+        618,
+        619
+      ],
+      "source_scan_pages": [
+        371
+      ],
+      "type": "blank_scan_interleaved_sections",
+      "disposition": "分列翻译两部分中可辨论证；交错的段落归属及不完整法源不推测。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P620-623-MOVABLE_OWNERSHIP_AND_MARITAL_REGIME",
+      "volume": 8,
+      "output_pdf_pages": [
+        620,
+        621,
+        622,
+        623
+      ],
+      "source_scan_pages": [
+        371
+      ],
+      "type": "blank_scan_interleaved_property_and_marriage_streams",
+      "disposition": "按文字流分段翻译可辨规则；损坏引文与各段确切版面归属保留未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P624-627-OBLIGATIONS_FORM_AND_MARITAL_CHANGE",
+      "volume": 8,
+      "output_pdf_pages": [
+        624,
+        625,
+        626,
+        627
+      ],
+      "source_scan_pages": [
+        371,
+        372
+      ],
+      "type": "blank_scan_interleaved_obligation_and_family_law",
+      "disposition": "译出可以确定的原则与引文；对残缺条号、土地契约数额和章节流向不作猜补。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P628-633-MARITAL_DOMICILE_AND_OBLIGATION_PERFORMANCE",
+      "volume": 8,
+      "output_pdf_pages": [
+        628,
+        629,
+        630,
+        631,
+        632,
+        633
+      ],
+      "source_scan_pages": [
+        372
+      ],
+      "type": "blank_scan_interleaved_family_and_obligation_streams",
+      "disposition": "分开翻译可辨论证，履行地、管辖法院和婚姻财产规则保留各自上下文；不猜补残句与法源。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P634-635-FORMALITY_WILLS_AND_SPOUSAL_GIFTS",
+      "volume": 8,
+      "output_pdf_pages": [
+        634,
+        635
+      ],
+      "source_scan_pages": [
+        373
+      ],
+      "type": "blank_scan_damaged_citations_and_interleaved_sections",
+      "disposition": "翻译可辨规范与法源线索；不补全破损作者名、条号或引文。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P636-640-MARRIAGE_DEBT_AND_PATERNAL_POWER",
+      "volume": 8,
+      "output_pdf_pages": [
+        636,
+        637,
+        638,
+        639,
+        640
+      ],
+      "source_scan_pages": [
+        373
+      ],
+      "type": "blank_scan_interleaved_sections_and_citations",
+      "disposition": "分别翻译可辨的规则与例证；损坏作者引文、条号及段落归属保留未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P641-643-OBLIGATION_CHOICE_AND_FORMALITY",
+      "volume": 8,
+      "output_pdf_pages": [
+        641,
+        642,
+        643
+      ],
+      "source_scan_pages": [
+        373,
+        374
+      ],
+      "type": "blank_scan_damaged_citations_and_page_streams",
+      "disposition": "翻译可辨论证；法源文字流及缺损部分不猜补，维持未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P644-648-GUARDIANSHIP_AND_JUDGMENT_RECOGNITION",
+      "volume": 8,
+      "output_pdf_pages": [
+        644,
+        645,
+        646,
+        647,
+        648
+      ],
+      "source_scan_pages": [
+        374
+      ],
+      "type": "blank_scan_interleaved_family_and_judgment_streams",
+      "disposition": "分列翻译可辨的法律论证与例证；残缺判决、条号和跨页连接保留未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P648-651-OBLIGATION_VALIDITY_TORTS_AND_MARRIAGE_FORM",
+      "volume": 8,
+      "output_pdf_pages": [
+        648,
+        649,
+        650,
+        651
+      ],
+      "source_scan_pages": [
+        374,
+        375
+      ],
+      "type": "blank_scan_interleaved_specific_questions_and_marriage_form",
+      "disposition": "译出可辨规则；对错误/残缺引文和无法复原的句尾不作推断。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P652-655-GUARDIANSHIP_ASSETS_AND_BANKRUPTCY_ASSISTANCE",
+      "volume": 8,
+      "output_pdf_pages": [
+        652,
+        653,
+        654,
+        655
+      ],
+      "source_scan_pages": [
+        375
+      ],
+      "type": "blank_scan_interleaved_guardianship_and_insolvency",
+      "disposition": "翻译可辨的监护和破产程序原则；债权类别细节和残缺法源保留未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P656-659-CONTENTS_CONFLICT_THEORY_TERRITORIAL_SUCCESSION",
+      "volume": 8,
+      "output_pdf_pages": [
+        656,
+        657,
+        658,
+        659
+      ],
+      "source_scan_pages": [
+        375
+      ],
+      "type": "blank_scan_toc_and_body_streams_mixed",
+      "disposition": "分别翻译可辨目录条目和正文；不确定的页码、术语及段落归属保留未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P660-664-DOMICILE_ORIGO_AND_INHERITANCE",
+      "volume": 8,
+      "output_pdf_pages": [
+        660,
+        661,
+        662,
+        663,
+        664
+      ],
+      "source_scan_pages": [
+        375
+      ],
+      "type": "blank_scan_interleaved_chapters_and_page_streams",
+      "disposition": "分列翻译可辨概念和论证；损坏的身份类别、脚注及印刷页归属保留未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P665-667-ROMAN_EXCEPTIONS_AND_OPTIONAL_FORM",
+      "volume": 8,
+      "output_pdf_pages": [
+        665,
+        666,
+        667
+      ],
+      "source_scan_pages": [
+        375,
+        376
+      ],
+      "type": "blank_scan_historical_examples_and_damaged_latin",
+      "disposition": "翻译可辨的历史例证与规则；残缺条件、法源拉丁文及专名不猜补。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P668-671-LOCUS_RULE_INHERITANCE_FORUM_AND_AUTONOMY",
+      "volume": 8,
+      "output_pdf_pages": [
+        668,
+        669,
+        670,
+        671
+      ],
+      "source_scan_pages": [
+        376
+      ],
+      "type": "blank_scan_interleaved_form_inheritance_and_voluntary_submission",
+      "disposition": "分段翻译可辨规则；无法确认的版面顺序和书目保留未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P672-675-INHERITANCE_CAPACITY_AND_CONFLICT_METHOD",
+      "volume": 8,
+      "output_pdf_pages": [
+        672,
+        673,
+        674,
+        675
+      ],
+      "source_scan_pages": [
+        376
+      ],
+      "type": "blank_scan_interleaved_inheritance_and_conflict_method",
+      "disposition": "翻译可辨论证并分列不同文字流；条号、遗失句尾和版面归属不猜补。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P676-680-REPEATED_REAL_RIGHTS_MARRIAGE_AND_MOVABLES",
+      "volume": 8,
+      "output_pdf_pages": [
+        676,
+        677,
+        678,
+        679,
+        680
+      ],
+      "source_scan_pages": [
+        376
+      ],
+      "type": "blank_scan_repeated_text_streams",
+      "disposition": "依本页实际可见文字层翻译重复段落，标出其重复性；不去重、不凭空白图像确认版面来源。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P681-683-OBLIGATION_INTRO_REPEATED_STREAM",
+      "volume": 8,
+      "output_pdf_pages": [
+        681,
+        682,
+        683
+      ],
+      "source_scan_pages": [
+        376
+      ],
+      "type": "blank_scan_repeated_obligation_text",
+      "disposition": "翻译本页可辨文字并记录与前文重叠，保留重复来源和页序未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P684-688-OPTIONAL_FORM_AND_CONTRACT_PLACE",
+      "volume": 8,
+      "output_pdf_pages": [
+        684,
+        685,
+        686,
+        687,
+        688
+      ],
+      "source_scan_pages": [
+        377
+      ],
+      "type": "blank_scan_interleaved_forms_marriage_and_contract_formation",
+      "disposition": "分别翻译可辨规则和例子；残损的婚姻法连接点及版面次序保留未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P689-691-QUASI_CONTRACT_PATERNAL_POWER_AND_OBLIGATION_LAW",
+      "volume": 8,
+      "output_pdf_pages": [
+        689,
+        690,
+        691
+      ],
+      "source_scan_pages": [
+        377
+      ],
+      "type": "blank_scan_interleaved_family_and_obligation_text",
+      "disposition": "译出可辨规则，未确认的主语、法条及后续句保留未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P692-697-OBLIGATION_FORUM_FORM_RULE_REPEAT",
+      "volume": 8,
+      "output_pdf_pages": [
+        692,
+        693,
+        694,
+        695,
+        696,
+        697
+      ],
+      "source_scan_pages": [
+        377
+      ],
+      "type": "blank_scan_repeated_law_and_form_streams",
+      "disposition": "翻译本页实际可辨重复内容并标注重叠；不在空白原件基础上推定文本重复成因。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P698-699-INHERITANCE_CAPACITY_STREAM_REPEAT",
+      "volume": 8,
+      "output_pdf_pages": [
+        698,
+        699
+      ],
+      "source_scan_pages": [
+        377
+      ],
+      "type": "blank_scan_inheritance_and_method_streams_mixed",
+      "disposition": "译出可辨规则；对重复来源、法源、未完句和版面顺序保留未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P700-704-DOMICILE_FORMS_MARRIAGE_AND_SITUS_REPEAT",
+      "volume": 8,
+      "output_pdf_pages": [
+        700,
+        701,
+        702,
+        703,
+        704
+      ],
+      "source_scan_pages": [
+        377
+      ],
+      "type": "blank_scan_repeated_method_and_subject_streams",
+      "disposition": "逐页翻译本页可辨重复内容并记录重复性；不据空白扫描删除或合并文字。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P705-707-MOVABLE_CLAIMS_MARRIAGE_AND_OBLIGATIONS_REPEAT",
+      "volume": 8,
+      "output_pdf_pages": [
+        705,
+        706,
+        707
+      ],
+      "source_scan_pages": [
+        377
+      ],
+      "type": "blank_scan_repeated_property_marriage_and_obligation_streams",
+      "disposition": "翻译可辨内容，标注重叠/重复而保留未决，不猜测版面重排或重复来源。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P708-709-OBLIGATION_SEAT_AND_FORUM_STREAM",
+      "volume": 8,
+      "output_pdf_pages": [
+        708,
+        709
+      ],
+      "source_scan_pages": [
+        377
+      ],
+      "type": "blank_scan_mixed_obligation_local_law_and_forum_text",
+      "disposition": "翻译可读论述；将脚注破损处标为未决，不补写；不运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P712-FOOTNOTE-PRIVILEGIUM-GARBLED",
+      "volume": 8,
+      "output_pdf_pages": [
+        712
+      ],
+      "source_scan_pages": [
+        379
+      ],
+      "type": "blank_scan_corrupt_footnote",
+      "disposition": "仅译可辨含义，并明确授予机关措辞无法确定；不运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P713-715-FORM_CASES_AND_PRUSSIAN_RULE-STREAM",
+      "volume": 8,
+      "output_pdf_pages": [
+        713,
+        714,
+        715
+      ],
+      "source_scan_pages": [
+        380,
+        381,
+        382
+      ],
+      "type": "blank_scan_corrupt_legal_examples_and_truncated_sentence",
+      "disposition": "翻译能够确认的论证和法源；损坏段及截断句作未决标记，不补猜；不运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P716-PARTIAL-FOREIGN-ACTS-FRAGMENT",
+      "volume": 8,
+      "output_pdf_pages": [
+        716
+      ],
+      "source_scan_pages": [
+        382
+      ],
+      "type": "blank_scan_continuation_fragment",
+      "disposition": "仅译可读片段并标明先行指代不明；不补全，不运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P719-P720-QUOTE_AND_TREATY_COMMENT_DAMAGED",
+      "volume": 8,
+      "output_pdf_pages": [
+        719,
+        720
+      ],
+      "source_scan_pages": [
+        384,
+        385
+      ],
+      "type": "blank_scan_quote_damage_and_truncated_comment",
+      "disposition": "依据仍可辨认的句子翻译，注明引文整理及末句未决；不补猜，不运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P724-728-TRANSITIONAL_CASES_AND_FOOTNOTE_ORDER",
+      "volume": 8,
+      "output_pdf_pages": [
+        724,
+        725,
+        726,
+        727,
+        728
+      ],
+      "source_scan_pages": [
+        387,
+        388,
+        389
+      ],
+      "type": "blank_scan_damaged_footnote_association",
+      "disposition": "翻译正文与可辨脚注实质；对脚注标号关系保留未决，不重排或补猜；未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P731-ACQUIRED_RIGHTS_MAXIM_TRUNCATED",
+      "volume": 8,
+      "output_pdf_pages": [
+        731
+      ],
+      "source_scan_pages": [
+        391
+      ],
+      "type": "blank_scan_final_maxim_truncated",
+      "disposition": "按可辨句意译出主旨并标明原句截断，准确末尾措辞未决；未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P738-BOOK-I-CROSSREFERENCE-NUMBER-DAMAGED",
+      "volume": 8,
+      "output_pdf_pages": [
+        738
+      ],
+      "source_scan_pages": [
+        395
+      ],
+      "type": "blank_scan_damaged_cross_reference",
+      "disposition": "翻译正文并明确标出缺损的节号；不从上下文猜定编号；未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P752-FUTURE-INTEREST-FOOTNOTE-CORRUPT",
+      "volume": 8,
+      "output_pdf_pages": [
+        752
+      ],
+      "source_scan_pages": [
+        403
+      ],
+      "type": "blank_scan_garbled_footnote_phrase",
+      "disposition": "翻译可辨论点，明确标记差别短语未决；不补猜，不运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P756-ORPHANED-25-DEGREES-FRAGMENT",
+      "volume": 8,
+      "output_pdf_pages": [
+        756
+      ],
+      "source_scan_pages": [
+        405
+      ],
+      "type": "blank_scan_orphaned_text_fragment",
+      "disposition": "不把孤立字符纳入正文，保留在未决清单；未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P757-FOOTNOTE-H-AUTHOR-CITATION-DAMAGED",
+      "volume": 8,
+      "output_pdf_pages": [
+        757,
+        758
+      ],
+      "source_scan_pages": [
+        406
+      ],
+      "type": "blank_scan_damaged_author_citation",
+      "disposition": "保留可辨法源引文和原文论点；作者/书目残片列未决，不按熟悉程度猜补；未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P764-WEBER-FOOTNOTE-DISORDERED-CONTINUATION",
+      "volume": 8,
+      "output_pdf_pages": [
+        763,
+        764
+      ],
+      "source_scan_pages": [
+        409
+      ],
+      "type": "blank_scan_scrambled_footnote_continuation",
+      "disposition": "依据p763脚注及前后论证衔接，译出脚注的可确定论点；不补写具体缺失措辞，保留原句结构未决；未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P768-CITATION-ABBREVIATION-UNCLEAR",
+      "volume": 8,
+      "output_pdf_pages": [
+        768
+      ],
+      "source_scan_pages": [
+        411
+      ],
+      "type": "blank_scan_uncertain_citation_abbreviation",
+      "disposition": "译述所指法理，但法源缩写按文字层照录；未展开未确认的中间缩写；未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P771-TRAILING-CITATION-FRAGMENT-458",
+      "volume": 8,
+      "output_pdf_pages": [
+        771
+      ],
+      "source_scan_pages": [
+        413
+      ],
+      "type": "blank_scan_trailing_citation_fragment",
+      "disposition": "保留可辨认的法源清单；将“4.58.”单独记为未决，不据猜测补全；未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P777-ORPHANED-N-CHARACTER",
+      "volume": 8,
+      "output_pdf_pages": [
+        777
+      ],
+      "source_scan_pages": [
+        418
+      ],
+      "type": "blank_scan_orphaned_single_character",
+      "disposition": "译文保留说明但不将“N”补入正文；未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P779-VM26-ORPHANED-FRAGMENT",
+      "volume": 8,
+      "output_pdf_pages": [
+        779
+      ],
+      "source_scan_pages": [
+        419
+      ],
+      "type": "blank_scan_orphaned_text_fragment",
+      "disposition": "保留为未决残片，不作补译或猜测；未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P783-ORPHANED-26-STAR-FRAGMENT",
+      "volume": 8,
+      "output_pdf_pages": [
+        783
+      ],
+      "source_scan_pages": [
+        421
+      ],
+      "type": "blank_scan_orphaned_numeric_fragment",
+      "disposition": "不将该片段补入正文或推定为引注；在译文中说明并保留未决；未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P789-FOOTNOTE-AUTHOR-NAME-UNCLEAR",
+      "volume": 8,
+      "output_pdf_pages": [
+        789
+      ],
+      "source_scan_pages": [
+        426
+      ],
+      "type": "blank_scan_damaged_author_reference",
+      "disposition": "仅翻译可辨的论题和后续定位；不凭熟悉程度补出作者姓名；未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P790-ORPHANED-TAT-FRAGMENT",
+      "volume": 8,
+      "output_pdf_pages": [
+        790
+      ],
+      "source_scan_pages": [
+        426
+      ],
+      "type": "blank_scan_orphaned_text_fragment",
+      "disposition": "根据第789、791页内容翻译可辨论证，保留本残片未决，不补字；未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P804-ORPHANED-1-VON-FRAGMENT",
+      "volume": 8,
+      "output_pdf_pages": [
+        804
+      ],
+      "source_scan_pages": [
+        435
+      ],
+      "type": "blank_scan_orphaned_reference_fragment",
+      "disposition": "不并入脚注或正文，保留未决；未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P805-FE27-FRAGMENT",
+      "volume": 8,
+      "output_pdf_pages": [
+        805
+      ],
+      "source_scan_pages": [
+        435
+      ],
+      "type": "blank_scan_orphaned_text_fragment",
+      "disposition": "不猜补为脚注或章节编号，保留未决；未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P806-M-DIL-FRAGMENT",
+      "volume": 8,
+      "output_pdf_pages": [
+        806
+      ],
+      "source_scan_pages": [
+        436
+      ],
+      "type": "blank_scan_orphaned_text_fragment",
+      "disposition": "不并入正文，保留未决；未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P808-INFAMY-N-WORD-DAMAGED",
+      "volume": 8,
+      "output_pdf_pages": [
+        808
+      ],
+      "source_scan_pages": [
+        437
+      ],
+      "type": "blank_scan_damaged_word",
+      "disposition": "译文仅表达可确定的法律含义，不补出原词；未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P809-MEYER-CHABOT-FOOTNOTE-ORDER",
+      "volume": 8,
+      "output_pdf_pages": [
+        809
+      ],
+      "source_scan_pages": [
+        437
+      ],
+      "type": "blank_scan_footnote-order-unclear",
+      "disposition": "保留可辨作者、判决和页码，说明其关系未决；未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P810-HEADING-PREFIX-GARBLED",
+      "volume": 8,
+      "output_pdf_pages": [
+        810
+      ],
+      "source_scan_pages": [
+        438
+      ],
+      "type": "blank_scan_garbled-heading-fragment",
+      "disposition": "仅翻译清晰的章节标题与正文，不将噪声编入内容；保留未决；未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P812-SERVITUT-POSITIVE-FORM-AND-CITATIONS",
+      "volume": 8,
+      "output_pdf_pages": [
+        812
+      ],
+      "source_scan_pages": [
+        439
+      ],
+      "type": "blank_scan_damaged_continuation_and_citation",
+      "disposition": "依据前页语境仅概括为设立地役权须采取某种法定形式；不补确切形式、作者或脚注对应。未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P813_814-PRIVILEGED-MORTGAGE-CITATION-ORDER",
+      "volume": 8,
+      "output_pdf_pages": [
+        813,
+        814
+      ],
+      "source_scan_pages": [
+        440
+      ],
+      "type": "blank_scan_footnote_order_and_sentence-fragment-unclear",
+      "disposition": "按可辨论证概括既有抵押权人应防范后设优先权；引文作者、法源与注号逐项关系不猜补。未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P815_816-LEX-COMMISSORIA-FOOTNOTE-ATTRIBUTION",
+      "volume": 8,
+      "output_pdf_pages": [
+        815,
+        816
+      ],
+      "source_scan_pages": [
+        441
+      ],
+      "type": "blank_scan-historical-citation-order-unclear",
+      "disposition": "翻译可辨的实体论证；引文完整出处及作者评价对象保留未决，不补全。未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P817-ORPHANED-N-00-FRAGMENTS",
+      "volume": 8,
+      "output_pdf_pages": [
+        817
+      ],
+      "source_scan_pages": [
+        442
+      ],
+      "type": "blank_scan_orphaned-fragment",
+      "disposition": "不编入正文或引注；保留未决。未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P824-ORPHANED-DDR-FRAGMENT",
+      "volume": 8,
+      "output_pdf_pages": [
+        824
+      ],
+      "source_scan_pages": [
+        446
+      ],
+      "type": "blank_scan_orphaned-fragment",
+      "disposition": "按相邻上下文续译明确的“期待不受保护”命题；不把残片并入正文或脚注。未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P827-FOOTNOTE-D-E-ORDER",
+      "volume": 8,
+      "output_pdf_pages": [
+        827,
+        828
+      ],
+      "source_scan_pages": [
+        448
+      ],
+      "type": "blank_scan-footnote-reference-order-unclear",
+      "disposition": "保留可辨法源，说明注号与说明的对应关系未决，不重排具体归属。未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P828-LIMITATION-RATIONALE-FOOTNOTE",
+      "volume": 8,
+      "output_pdf_pages": [
+        828
+      ],
+      "source_scan_pages": [
+        448
+      ],
+      "type": "blank_scan_damaged-footnote-argument",
+      "disposition": "仅概括可辨的“时效理由包括对既往事实的推定”；不补出推定对象或作者未能确认的论证。未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P830-JUSTINIAN-LATIN-QUOTE-SCOPE",
+      "volume": 8,
+      "output_pdf_pages": [
+        830
+      ],
+      "source_scan_pages": [
+        449
+      ],
+      "type": "blank_scan-incomplete-latin-citation-scope-uncertain",
+      "disposition": "保留可辨拉丁文，并将对既往已完成时效诉权的适用理解标明为文字层可支持但范围未决；不补全引文。未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P834-CODE-CIVIL-ARTICLE-AND-QUOTE",
+      "volume": 8,
+      "output_pdf_pages": [
+        834
+      ],
+      "source_scan_pages": [
+        452
+      ],
+      "type": "blank_scan-french-citation-text-uncertain",
+      "disposition": "不将条号改成其他数字；保留文字层条号，并仅译出可辨的旧法适用规则，记为未决。未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P840_843-CONTRACT-CONSEQUENCES-DOCTRINE-CITATION-ORDER",
+      "volume": 8,
+      "output_pdf_pages": [
+        840,
+        841,
+        842,
+        843
+      ],
+      "source_scan_pages": [
+        456,
+        457
+      ],
+      "type": "blank_scan-damaged-theory-and-footnote-order",
+      "disposition": "按p842可辨的完整理论结构翻译正文；将作者引注对应与孤立片段保留未决，不补足残文。未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P841-KUBYK-ORPHANED-FRAGMENT",
+      "volume": 8,
+      "output_pdf_pages": [
+        841
+      ],
+      "source_scan_pages": [
+        456
+      ],
+      "type": "blank_scan-orphaned-fragment",
+      "disposition": "不纳入正文或作者名；保留未决。未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P844_845-MEYER-ANFECHTUNG-CITATION-ORDER",
+      "volume": 8,
+      "output_pdf_pages": [
+        844,
+        845
+      ],
+      "source_scan_pages": [
+        458
+      ],
+      "type": "blank_scan-damaged-footnote-pagination",
+      "disposition": "保留文字层可辨范围，不将其拆分成未经核实的页码列表。未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P846_849-KAUF-BRICHT-MIETE-FOOTNOTE-ORDER",
+      "volume": 8,
+      "output_pdf_pages": [
+        846,
+        847,
+        848,
+        849
+      ],
+      "source_scan_pages": [
+        459,
+        460
+      ],
+      "type": "blank_scan-maxim-and-footnote-order-uncertain",
+      "disposition": "据第848页的后续论证将标题译为“买卖破租赁”，保留引注归属和注号次序未决。未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P850_851-RESTITUTION-FOOTNOTE-MAPPING",
+      "volume": 8,
+      "output_pdf_pages": [
+        850,
+        851
+      ],
+      "source_scan_pages": [
+        461
+      ],
+      "type": "blank_scan-footnote-citation-mapping-uncertain",
+      "disposition": "翻译可辨主论证；引文逐项归属不作推定，保留未决。未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P852_853-ROMAN-EXCEPTIONS-TEMPORAL-RULES",
+      "volume": 8,
+      "output_pdf_pages": [
+        852,
+        853
+      ],
+      "source_scan_pages": [
+        462
+      ],
+      "type": "blank_scan-disordered-exception-and-footnote-mapping",
+      "disposition": "保留法源名称，正文说明具体时点无法唯一配对；不把适用时间猜配到某项抗辩。未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P856-INSOLVENCY-CLASS-CITATION-FRAGMENT",
+      "volume": 8,
+      "output_pdf_pages": [
+        856,
+        857
+      ],
+      "source_scan_pages": [
+        464
+      ],
+      "type": "blank_scan-creditor-rank-transition-citation-uncertain",
+      "disposition": "依上下文翻译可辨的抵押权人与其他债权人分类；未能确定的法条/引注具体对应保留未决。未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P860_861-FOOTNOTE-A-DAMAGED-CROSSREFERENCE",
+      "volume": 8,
+      "output_pdf_pages": [
+        860,
+        861
+      ],
+      "source_scan_pages": [
+        466
+      ],
+      "type": "blank_scan-damaged-footnote-crossreference",
+      "disposition": "仅按可辨内容概述该能力问题留待下文讨论；不补入具体页码或段落指向，保留未决。未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P860_864-CHAPTER-RUNNING-HEADER-CONFLICT",
+      "volume": 8,
+      "output_pdf_pages": [
+        860,
+        864,
+        867,
+        870,
+        877,
+        884,
+        887,
+        890,
+        894,
+        898,
+        901,
+        903,
+        905,
+        909,
+        913,
+        931,
+        937,
+        941,
+        945
+      ],
+      "source_scan_pages": [
+        466,
+        468,
+        470,
+        472,
+        476,
+        480,
+        482,
+        484,
+        486,
+        488,
+        490,
+        492,
+        494,
+        496,
+        498,
+        508,
+        512,
+        514,
+        516
+      ],
+      "type": "blank_scan-running-header-numeral-conflict",
+      "disposition": "逐页保留文字层所示第I章/第II章，不因上下文统一章号；列为结构性未决。未运行OCR。 p931仍按文字层保留第I章标记，不据连续论述统一为第II章。 p937亦逐页保留第I章标记，不据上下文统一。 p941、p945同样逐页保留第I章标记，不依前后结构统一。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P867-PEREGRINI-TESTAMENTIFACTIO-CLAUSE",
+      "volume": 8,
+      "output_pdf_pages": [
+        867
+      ],
+      "source_scan_pages": [
+        470
+      ],
+      "type": "blank_scan-damaged-peregrini-clause",
+      "disposition": "保留 cives、Latini、peregrini 三个身份类别；只翻译前半句明确内容，对 peregrini 的具体断言不猜补。未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P870-FOOTNOTE-F-CITATION-FRAGMENT",
+      "volume": 8,
+      "output_pdf_pages": [
+        870
+      ],
+      "source_scan_pages": [
+        472
+      ],
+      "type": "blank_scan-damaged-roman-citation",
+      "disposition": "保留脚注标记并说明法源清单残损；不猜补具体条项。未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P871_872-FOOTNOTES-GH-CITATION-MAPPING",
+      "volume": 8,
+      "output_pdf_pages": [
+        871,
+        872
+      ],
+      "source_scan_pages": [
+        473
+      ],
+      "type": "blank_scan-damaged-footnote-citations",
+      "disposition": "只翻译可辨的法源名称与主题，不补出未能确定的引文位置。未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P875-BENEFICIARY-CAPACITY-OPENING-DAMAGE",
+      "volume": 8,
+      "output_pdf_pages": [
+        875
+      ],
+      "source_scan_pages": [
+        475
+      ],
+      "type": "blank_scan-damaged-doctrinal-phrase",
+      "disposition": "据本段可辨语义译为“引发重大争议”，不补成具体学说、错误或困难种类；保留未决。未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P881-CATONIAN-RULE-LATIN-QUOTE",
+      "volume": 8,
+      "output_pdf_pages": [
+        881,
+        882
+      ],
+      "source_scan_pages": [
+        478
+      ],
+      "type": "blank_scan-latin-citation-not-visually-verifiable",
+      "disposition": "译文保留文字层原句并附中文译文，不依据外部熟悉度改写；将视觉核定状态保留为未决。未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P884_885-FOOTNOTE-T-COLUMN-ORDER",
+      "volume": 8,
+      "output_pdf_pages": [
+        884,
+        885
+      ],
+      "source_scan_pages": [
+        480
+      ],
+      "type": "blank_scan-footnote-cross-column-order",
+      "disposition": "依可辨句子和相邻正文接读，保留脚注中Meyer意见的归属及顺序疑点。未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P886-FOOTNOTE-U-CITATION",
+      "volume": 8,
+      "output_pdf_pages": [
+        886
+      ],
+      "source_scan_pages": [
+        481
+      ],
+      "type": "blank_scan-damaged-citation",
+      "disposition": "仅记录可辨编号片段，不猜补具体法源或条项。未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P889-FOOTNOTE-BB-TAIL-FRAGMENT",
+      "volume": 8,
+      "output_pdf_pages": [
+        889
+      ],
+      "source_scan_pages": [
+        483
+      ],
+      "type": "blank_scan-footnote-damaged-tail",
+      "disposition": "保留可辨的作者、卷次和页码；不补译无法确定的末尾片段。未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P893-ORPHANED-TEXT-LAYER-MARK",
+      "volume": 8,
+      "output_pdf_pages": [
+        893
+      ],
+      "source_scan_pages": [
+        485
+      ],
+      "type": "blank-scan-orphaned-text-layer-mark",
+      "disposition": "保持页面位置，记录孤立文字层标记；无法判定其为正文、脚注号或其他符号，不作补译。未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P898-LEX-FALCIDIA-LATIN-QUOTE",
+      "volume": 8,
+      "output_pdf_pages": [
+        898
+      ],
+      "source_scan_pages": [
+        488
+      ],
+      "type": "blank-scan-damaged-latin-quotation",
+      "disposition": "仅保留文字层中可辨片段并标示缺文，不依据熟悉程度或外部文本重构引文；缺文未译。未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P899-FOOTNOTE-A-CITATION-TAIL",
+      "volume": 8,
+      "output_pdf_pages": [
+        899
+      ],
+      "source_scan_pages": [
+        488
+      ],
+      "type": "blank-scan-damaged-footnote-cross-column-citation",
+      "disposition": "仅保留可辨的《沃科尼亚法》（Lex Voconia）和Cicero, In Verrem I.41–42信息；不复原残损法源名称、条项或脚注末句。未运行OCR。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P900-LEX-FALCIDIA-TRANSITION-FRAGMENT",
+      "volume": 8,
+      "output_pdf_pages": [
+        900
+      ],
+      "source_scan_pages": [
+        489
+      ],
+      "type": "blank-scan-damaged-continuation-and-footnote",
+      "disposition": "仅译出已能由上下文确定的既存遗嘱可能获豁免这一点；不补写具体条件，脚注(b)不复原。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P902-NOTH-ERBTEIL-TERM",
+      "volume": 8,
+      "output_pdf_pages": [
+        902
+      ],
+      "source_scan_pages": [
+        491
+      ],
+      "type": "blank-scan-damaged-legal-term",
+      "disposition": "依同页明确的旧法四分之一及查士丁尼提高为三分之一或二分之一的论证，译作“特留份”；德文原术语不恢复，列未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P903-FOOTNOTE-I-CITATION-YEAR",
+      "volume": 8,
+      "output_pdf_pages": [
+        903
+      ],
+      "source_scan_pages": [
+        492
+      ],
+      "type": "blank-scan-damaged-citation-date",
+      "disposition": "保留可辨的法源缩写和条项，年份不补全。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P904-FOOTNOTE-F-LEGISLATION-COLLECTION-PAGE",
+      "volume": 8,
+      "output_pdf_pages": [
+        904
+      ],
+      "source_scan_pages": [
+        493
+      ],
+      "type": "blank-scan-damaged-bibliographic-page",
+      "disposition": "只记可辨的1814年《法令汇编》信息；页码按残损文字记录，不作猜补。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P905-PATENT-REGION-AND-FOOTNOTE",
+      "volume": 8,
+      "output_pdf_pages": [
+        905
+      ],
+      "source_scan_pages": [
+        494
+      ],
+      "type": "blank-scan-damaged-proper-name-and-author-note",
+      "disposition": "正文保留“地域名称文字层残损”的说明，不猜补地名；页末作者评注不翻译残字。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P909-ALR-CROSSREFERENCE-TRUNCATED",
+      "volume": 8,
+      "output_pdf_pages": [
+        909
+      ],
+      "source_scan_pages": [
+        496
+      ],
+      "type": "blank-scan-truncated-cross-reference",
+      "disposition": "保留为《普鲁士普通邦法》相关恒常规定的引页残片，不推测完整页码。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P910-TESTAMENTARY-FORM-EXAMPLE-TRUNCATED",
+      "volume": 8,
+      "output_pdf_pages": [
+        910
+      ],
+      "source_scan_pages": [
+        496
+      ],
+      "type": "blank-scan-damaged-example",
+      "disposition": "译文标注具体形式名称不可辨，不依据可能的法律形式猜补。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P911-LEGAL-INCAPACITY-RELATION-TO-393",
+      "volume": 8,
+      "output_pdf_pages": [
+        911
+      ],
+      "source_scan_pages": [
+        497
+      ],
+      "type": "blank-scan-damaged-doctrinal-link",
+      "disposition": "保留法律上能力欠缺后来消除这一规则；其与§393第1项究竟构成何种关系不补定。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P915-CHABOT-CROSSREFERENCE",
+      "volume": 8,
+      "output_pdf_pages": [
+        915
+      ],
+      "source_scan_pages": [
+        499
+      ],
+      "type": "blank-scan-damaged-author-citation",
+      "disposition": "只保留Chabot观点优于前两位作者这一判断；不恢复引页。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P916-ISOLATED-ROMAN-NUMERAL",
+      "volume": 8,
+      "output_pdf_pages": [
+        916
+      ],
+      "source_scan_pages": [
+        499
+      ],
+      "type": "blank-scan-isolated-roman-numeral",
+      "disposition": "保留孤立标记并将页面登记为无可译正文，不据此补造标题。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P918-FISCUS-PHRASE-DAMAGED",
+      "volume": 8,
+      "output_pdf_pages": [
+        918
+      ],
+      "source_scan_pages": [
+        501
+      ],
+      "type": "blank-scan-damaged-word-in-property-phrase",
+      "disposition": "译文保留缺字标记，仅译出可确认的“似乎拥有”及归国库所有的结论；不补德文原词。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P919-FOOTNOTE-CITATION-GLYPHS-UNCERTAIN",
+      "volume": 8,
+      "output_pdf_pages": [
+        919
+      ],
+      "source_scan_pages": [
+        501
+      ],
+      "type": "blank-scan-uncertain-citation-glyphs",
+      "disposition": "译文保留“LIS 4. 8”原识别形式，不将其规范化为“L. 4.8”或补写法源。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P920-PERSONAL-RELATION-CHANGES-DAMAGED",
+      "volume": 8,
+      "output_pdf_pages": [
+        920
+      ],
+      "source_scan_pages": [
+        502
+      ],
+      "type": "blank-scan-damaged-heading-and-sentence",
+      "disposition": "译文标明残损位置；只保留近亲期待无遗嘱继承、后发生婚姻及子女可使期待落空等可辨内容，不猜补限定词或段末例子。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P922-FOOTNOTES-E-D-DAMAGED",
+      "volume": 8,
+      "output_pdf_pages": [
+        922
+      ],
+      "source_scan_pages": [
+        503
+      ],
+      "type": "blank-scan-damaged-roman-citation-names-and-glyphs",
+      "disposition": "译文保留原识别字符串，不将其改作Gaius、Ulpian或§7等未获扫描确认的形式。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P922_923-FOOTNOTE-B-CITATION-ORDER",
+      "volume": 8,
+      "output_pdf_pages": [
+        922,
+        923
+      ],
+      "source_scan_pages": [
+        503
+      ],
+      "type": "blank-scan-footnote-continuation-and-citation-order-uncertain",
+      "disposition": "保留原有拉丁引证片段并译出可辨的胎儿与已出生继承人地位平等之意；不重排或补定不明的引证关系。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P924-FOOTNOTE-E-CITATION-FRAGMENTS",
+      "volume": 8,
+      "output_pdf_pages": [
+        924
+      ],
+      "source_scan_pages": [
+        504
+      ],
+      "type": "blank-scan-damaged-institutiones-citations",
+      "disposition": "照录文字层引文片段，不把其规范化为§6、Gaius或推定的法条编号。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P925_927-JUS-ACCRESCENDI-SPELLING",
+      "volume": 8,
+      "output_pdf_pages": [
+        925,
+        927
+      ],
+      "source_scan_pages": [
+        505,
+        506
+      ],
+      "type": "blank-scan-latin-term-spelling-uncertain",
+      "disposition": "译文和术语表均保留原识别拼写，并释作共同继承人份额增益权；不改写拉丁词形。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P927_928-FOOTNOTE-F-CITATION-FRAGMENTS",
+      "volume": 8,
+      "output_pdf_pages": [
+        927,
+        928
+      ],
+      "source_scan_pages": [
+        506
+      ],
+      "type": "blank-scan-damaged-literature-and-digest-citations",
+      "disposition": "仅翻译可辨论述；保留残存的引文形式，不补全作品名或重排法条。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P929_930-FOOTNOTE-H-CITATION-FRAGMENTS",
+      "volume": 8,
+      "output_pdf_pages": [
+        929,
+        930
+      ],
+      "source_scan_pages": [
+        507
+      ],
+      "type": "blank-scan-damaged-author-and-crossreference",
+      "disposition": "按可辨片段翻译并保留源文拼写，不猜补作品名、法语撇号或页码结构。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P933-FOOTNOTES-I-K-CITATION-DAMAGE",
+      "volume": 8,
+      "output_pdf_pages": [
+        933
+      ],
+      "source_scan_pages": [
+        509
+      ],
+      "type": "blank-scan-damaged-citation-strings",
+      "disposition": "依正文锚点辨认脚注标记为(i)、(k)，但法源片段照录原文字层，不规范化模糊的数字或符号。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P935_936_939-AUTHOR-BIBLIOGRAPHY-DAMAGE",
+      "volume": 8,
+      "output_pdf_pages": [
+        935,
+        936,
+        939
+      ],
+      "source_scan_pages": [
+        510,
+        511,
+        513
+      ],
+      "type": "blank-scan-damaged-author-names-and-publication-citations",
+      "disposition": "作者名和出处保持文字层形式，不按熟悉的作者或书名猜改。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P939-FOOTNOTE-I-TAIL-TRUNCATED",
+      "volume": 8,
+      "output_pdf_pages": [
+        939
+      ],
+      "source_scan_pages": [
+        513
+      ],
+      "type": "blank-scan-truncated-bibliography-tail",
+      "disposition": "译文保留可辨书目并标记续文残缺，不补写作品题名或页码。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P940-FOOTNOTE-H-BIBLIOGRAPHIC-FRAGMENTS",
+      "volume": 8,
+      "output_pdf_pages": [
+        940
+      ],
+      "source_scan_pages": [
+        513
+      ],
+      "type": "blank-scan-damaged-footnote-bibliography",
+      "disposition": "保留可辨引文片段，不猜补页码、书目首词或作者姓名。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P941-DOS-RESTITUTION-PHRASE-DAMAGED",
+      "volume": 8,
+      "output_pdf_pages": [
+        941
+      ],
+      "source_scan_pages": [
+        514
+      ],
+      "type": "blank-scan-damaged-dotal-law-list",
+      "disposition": "译文标出该短语残损，只保留可辨的嫁资、返还及继承人关系，不补词。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P942-FOOTNOTE-L-DIGEST-CITATION-DAMAGED",
+      "volume": 8,
+      "output_pdf_pages": [
+        942
+      ],
+      "source_scan_pages": [
+        514
+      ],
+      "type": "blank-scan-damaged-digest-citation",
+      "disposition": "保留文字层引文，不依据熟悉的罗马法引证补写。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P945-TRANSITION-RELATION-WORD-DAMAGED",
+      "volume": 8,
+      "output_pdf_pages": [
+        945
+      ],
+      "source_scan_pages": [
+        516
+      ],
+      "type": "blank-scan-damaged-transition-sentence",
+      "disposition": "译文保留“新法与既有婚姻的关系”这一可辨命题，不补原文名词。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P948-REGIONAL-LAW-AND-FOOTNOTE-FRAGMENTS-UNCERTAIN",
+      "volume": 8,
+      "output_pdf_pages": [
+        948
+      ],
+      "source_scan_pages": [
+        517
+      ],
+      "type": "blank-scan-misaligned-regional-law-footnote-fragments",
+      "disposition": "译文仅翻译可辨的省法句与法条片段；不猜补各地方法条之间的关系及句尾。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P949-EXISTING-RELATION-NOUN-DAMAGED",
+      "volume": 8,
+      "output_pdf_pages": [
+        949
+      ],
+      "source_scan_pages": [
+        518
+      ],
+      "type": "blank-scan-damaged-german-object-noun",
+      "disposition": "译文保留“已经存在的〔关系或情形：原文字层此处残损〕”，不补写法律关系、案件或其他名词。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P954-FOOTNOTE-S-LATIN-CITATION-FRAGMENTS",
+      "volume": 8,
+      "output_pdf_pages": [
+        954,
+        956
+      ],
+      "source_scan_pages": [
+        520,
+        521
+      ],
+      "type": "blank-scan-damaged-latin-citation",
+      "disposition": "两处重复引证均保留文字层残损形式；不依据熟悉的法源名称补全。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P957-STRAY-TEXT-FRAGMENTS",
+      "volume": 8,
+      "output_pdf_pages": [
+        957
+      ],
+      "source_scan_pages": [
+        522
+      ],
+      "type": "blank-scan-isolated-unreadable-glyph-fragments",
+      "disposition": "不将零碎字符串擅自并入正文或脚注；译文注明未能判断。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P959-LATIN-CITATION-W-DAMAGED",
+      "volume": 8,
+      "output_pdf_pages": [
+        959
+      ],
+      "source_scan_pages": [
+        523
+      ],
+      "type": "blank-scan-damaged-latin-author-and-citation",
+      "disposition": "照录可辨字符串，不改为熟悉的作者名或法源形式。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P963-COMMON-LAW-PHRASE-AND-CROSSREF-DAMAGE",
+      "volume": 8,
+      "output_pdf_pages": [
+        963
+      ],
+      "source_scan_pages": [
+        526
+      ],
+      "type": "blank-scan-damaged-common-law-phrase-and-section-number",
+      "disposition": "译文保留其可能涉及重新取得普通法效力的命题并标示残损；照录“300”，不擅改为其他节号。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P964-SINGLE-LETTER-FRAGMENT",
+      "volume": 8,
+      "output_pdf_pages": [
+        964
+      ],
+      "source_scan_pages": [
+        526
+      ],
+      "type": "blank-scan-isolated-single-letter",
+      "disposition": "无法判断“N”是否为注号、正文残片或识别噪声；不译、不补。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P965-LATIN-QUOTE-NOMINATIM-UNCERTAIN",
+      "volume": 8,
+      "output_pdf_pages": [
+        965
+      ],
+      "source_scan_pages": [
+        527
+      ],
+      "type": "blank-scan-damaged-latin-legal-quotation",
+      "disposition": "保留原识别形式并标示疑点；只给出带保留的中文大意，不把首词改定为其他拼写。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P965_966-FOOTNOTE-D-BIBLIOGRAPHY-ORDER-DAMAGE",
+      "volume": 8,
+      "output_pdf_pages": [
+        965,
+        966
+      ],
+      "source_scan_pages": [
+        527
+      ],
+      "type": "blank-scan-interleaved-footnote-author-and-evaluation",
+      "disposition": "译文只保留可辨作者与页码，未补写评价语的主谓关系。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P972-ISOLATED-GLYPHS",
+      "volume": 8,
+      "output_pdf_pages": [
+        972
+      ],
+      "source_scan_pages": [
+        531
+      ],
+      "type": "blank-scan-isolated-letter-fragments",
+      "disposition": "未将这些孤立字符编入正文或脚注；保持未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P974-P976-978-ISOLATED-MARKS",
+      "volume": 8,
+      "output_pdf_pages": [
+        974,
+        976,
+        978
+      ],
+      "source_scan_pages": [
+        532,
+        533,
+        535
+      ],
+      "type": "blank-scan-isolated-page-marks",
+      "disposition": "译文将孤立字符标为未决，不据推测纳入正文。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P980-P981-P982-ISOLATED-GLYPHS",
+      "volume": 8,
+      "output_pdf_pages": [
+        980,
+        981,
+        982
+      ],
+      "source_scan_pages": [
+        536,
+        537
+      ],
+      "type": "blank-scan-isolated-glyphs-and-citation-order",
+      "disposition": "不把孤立符号并入正文；脚注引页照录可辨部分，不猜补页码范围。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P986-INCOMPLETE-DANGLING-CLAUSE",
+      "volume": 8,
+      "output_pdf_pages": [
+        986
+      ],
+      "source_scan_pages": [
+        539
+      ],
+      "type": "blank-scan-page-end-missing-predicate",
+      "disposition": "译文保留未完句，不按语法预期补入“标准”“特征”或其他词。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P995-FOREIGN-LAW-PRONOUN-FRAGMENT",
+      "volume": 8,
+      "output_pdf_pages": [
+        995
+      ],
+      "source_scan_pages": [
+        544
+      ],
+      "type": "blank-scan-unresolved-text-layer-fragment",
+      "disposition": "语义按句法译作“在该外国法下不构成离婚事由”；“in 2.”的确切代词或词组不能核实，保留未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P996-DANZIG-FOOTNOTE-PLACE-NAME",
+      "volume": 8,
+      "output_pdf_pages": [
+        996
+      ],
+      "source_scan_pages": [
+        544
+      ],
+      "type": "blank-scan-uncertain-province-name",
+      "disposition": "据易北河以东各省、西普鲁士、萨克森等并列地名，暂将Dorn读作Danzig（但泽）；原字未核验，保留未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P999-FOOTNOTE-H-DAMAGED-FRAGMENT",
+      "volume": 8,
+      "output_pdf_pages": [
+        999,
+        1000
+      ],
+      "source_scan_pages": [
+        546
+      ],
+      "type": "blank-scan-unresolved-footnote-fragment",
+      "disposition": "只翻译能与下页续文连贯的脚注主句；残片不并入译文，保留未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P1002-ISOLATED-GLYPHS",
+      "volume": 8,
+      "output_pdf_pages": [
+        1002
+      ],
+      "source_scan_pages": [
+        547
+      ],
+      "type": "blank-scan-isolated-glyphs",
+      "disposition": "无法判断为印张、页码或正文符号，不并入译文，保留未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P1004-CITATION-N-UNCLEAR",
+      "volume": 8,
+      "output_pdf_pages": [
+        1003,
+        1004
+      ],
+      "source_scan_pages": [
+        548
+      ],
+      "type": "blank-scan-unresolved-citation",
+      "disposition": "保留可辨片段，不推定完整法源名称或引注格式。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P1010-FOOTNOTE-E-CITATION-UNCLEAR",
+      "volume": 8,
+      "output_pdf_pages": [
+        1009,
+        1010
+      ],
+      "source_scan_pages": [
+        552
+      ],
+      "type": "blank-scan-unresolved-citation",
+      "disposition": "不猜补法源简称，译文只说明该处有法源引注并保留残缺读法。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P1014-FOOTNOTE-D-SECTION-CITATION",
+      "volume": 8,
+      "output_pdf_pages": [
+        1013,
+        1014
+      ],
+      "source_scan_pages": [
+        554
+      ],
+      "type": "blank-scan-uncertain-reference",
+      "disposition": "暂按卷1§4、§52、§53处理；因分节号码连写，具体范围保留未决。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    },
+    {
+      "id": "V8-P1016-FOOTNOTE-E-AUTHOR-NAME",
+      "volume": 8,
+      "output_pdf_pages": [
+        1015,
+        1016
+      ],
+      "source_scan_pages": [
+        555
+      ],
+      "type": "blank-scan-uncertain-citation-author",
+      "disposition": "保留“Maxxn”残缺读法，不凭页码猜作者。",
+      "status": "unresolved",
+      "review_state": "open_or_unresolved"
+    }
+  ]
+}
